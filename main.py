@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from engine import generate_scent
@@ -32,7 +32,5 @@ def health():
 
 @app.post("/calculate")
 def calculate(data: BirthData):
-    try:
-        return generate_scent(data.dict())
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+    result = generate_scent(data.dict())
+    return result
