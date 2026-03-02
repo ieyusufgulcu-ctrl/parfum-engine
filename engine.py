@@ -7,6 +7,19 @@ def load_engine():
         return json.load(f)
 
 
+SIGN_NORMALIZE = {
+    # 3-letter abbreviations (Kerykeion default)
+    "ari": "aries",   "tau": "taurus",  "gem": "gemini",
+    "can": "cancer",  "leo": "leo",      "vir": "virgo",
+    "lib": "libra",   "sco": "scorpio",  "sag": "sagittarius",
+    "cap": "capricorn","aqu": "aquarius","pis": "pisces",
+    # full names pass through unchanged
+    "aries": "aries", "taurus": "taurus", "gemini": "gemini",
+    "cancer": "cancer", "virgo": "virgo", "libra": "libra",
+    "scorpio": "scorpio", "sagittarius": "sagittarius",
+    "capricorn": "capricorn", "aquarius": "aquarius", "pisces": "pisces",
+}
+
 SIGN_ELEMENT = {
     "aries": "fire", "leo": "fire", "sagittarius": "fire",
     "taurus": "earth", "virgo": "earth", "capricorn": "earth",
@@ -65,7 +78,8 @@ def get_chart_data(person):
 
     def safe_sign(planet_obj):
         try:
-            return planet_obj.sign.lower()
+            raw = planet_obj.sign.lower().strip()
+            return SIGN_NORMALIZE.get(raw, raw)
         except Exception:
             return None
 
