@@ -1,6 +1,144 @@
 import json
 from kerykeion import AstrologicalSubject, NatalAspects
 
+NOTE_TR = {
+    "Blackberry": "Böğürtlen", "Cucumber": "Salatalık", "Almond": "Badem",
+    "Musk": "Misk", "Apricot": "Kayısı", "Lavender": "Lavanta",
+    "Amber": "Amber", "Violet": "Menekşe", "Linden": "Ihlamur",
+    "Orange": "Portakal", "Rose": "Gül", "Vanilla": "Vanilya",
+    "Ocean": "Okyanus", "Tangerine": "Mandalina", "Cinnamon": "Tarçın",
+    "Lilac": "Leylak", "Chocolate": "Çikolata", "Jasmine": "Yasemin",
+    "Lily": "Zambak", "Sandalwood": "Sandal", "Pine": "Çam",
+    "Eucalyptus": "Okaliptüs", "Magnolia": "Manolya", "Narcissus": "Nergis",
+    "Chamomile": "Papatya", "Bay Tree": "Defne", "Caramel": "Karamel",
+    "Patchouli": "Patchouli", "Coconut": "Hindistan Cevizi",
+    "Green Apple": "Yeşil Elma", "Green Tea": "Yeşil Çay", "Latte": "Latte",
+    "Royal Oud": "Oud", "Cedar Tree": "Sedir Ağacı", "Ylang Ylang": "Ylang Ylang",
+    "Lemon": "Limon", "Melon": "Kavun", "Grape": "Üzüm",
+    "Cashmere": "Kaşmir", "Japanese Cherry": "Japon Kirazı", "Mango": "Mango",
+    "Baby Powder": "Pudra", "Olive": "Zeytin", "Musk Amber": "Misk Amber",
+    "Rosemary": "Biberiye", "Clove": "Karanfil", "Sage": "Ada Çayı",
+    "Menthol": "Mentol", "Lotus": "Lotus", "Peach": "Şeftali",
+    "Silverberry": "İğde", "Pomegranate": "Nar", "Hyacinth": "Sümbül",
+    "Coffee": "Kahve", "Honey": "Bal", "Lilium": "Lilium",
+    "Fig": "İncir", "Honeysuckle": "Hanımeli", "Aloe Vera": "Aloe Vera",
+    "Lime": "Lime", "Bergamot": "Bergamot", "Gum": "Sakız",
+    "Red Flowers": "Kırmızı Çiçekler", "Summer Fresh": "Yaz Ferahlığı",
+    "White Poppy": "Komşu Çatlatan", "Banana": "Muz", "Orchid": "Orkide",
+    "Acacia": "Akasya", "Juniper": "Ardıç", "L'Afrodizyak d'Or": "L'Afrodizyak d'Or",
+    "Avocado": "Avokado", "Istanbul": "İstanbul", "Peony": "Şakayık",
+    "Black Pepper": "Karabiber", "Blue Anemone": "Mavi Anemon",
+    "Thyme": "Kekik", "Pear": "Armut", "Mastic Gum": "Damla Sakızı",
+    "Cardamom": "Kakule",
+}
+
+SIGN_TR = {
+    "aries": "Koç", "taurus": "Boğa", "gemini": "İkizler", "cancer": "Yengeç",
+    "leo": "Aslan", "virgo": "Başak", "libra": "Terazi", "scorpio": "Akrep",
+    "sagittarius": "Yay", "capricorn": "Oğlak", "aquarius": "Kova", "pisces": "Balık",
+}
+
+ELEM_TR = {"fire": "Ateş", "earth": "Toprak", "air": "Hava", "water": "Su"}
+
+TAG_TR = {
+    "floral": "çiçeksi", "woody": "odunsu", "fresh": "ferah", "spicy": "baharatlı",
+    "oriental": "oriental", "gourmand": "gourmand", "aquatic": "aquatik",
+    "resinous": "reçineli", "powdery": "pudramsı", "earthy": "toprak",
+    "citrus": "narenciye", "warm": "sıcak", "sweet": "tatlı", "dark": "derin",
+    "sensual": "duyusal", "clean": "temiz", "aromatic": "aromatik",
+    "green": "yeşil", "exotic": "egzotik", "creamy": "kremsi",
+}
+
+def to_tr(note_name):
+    return NOTE_TR.get(note_name, note_name)
+
+def note_family(note):
+    """Return primary Turkish family description for a note."""
+    tags = note.get("tags", [])
+    for tag in ["floral", "woody", "citrus", "spicy", "aquatic", "oriental",
+                "resinous", "aromatic", "gourmand", "earthy"]:
+        if tag in tags:
+            return TAG_TR.get(tag, tag)
+    return TAG_TR.get(tags[0], tags[0]) if tags else ""
+
+def generate_description(top, heart, base, target, chart):
+    """Generate a personal Turkish description from templates."""
+    import random
+
+    ps = chart["planet_signs"]
+    sun  = SIGN_TR.get(ps.get("sun", ""), "")
+    moon = SIGN_TR.get(ps.get("moon", ""), "")
+    asc  = SIGN_TR.get(ps.get("asc", ""), "")
+
+    elem_pcts = {
+        "fire": chart["fire_pct"], "earth": chart["earth_pct"],
+        "air":  chart["air_pct"],  "water": chart["water_pct"],
+    }
+    dom_elem = max(elem_pcts, key=elem_pcts.get)
+    dom_tr = ELEM_TR[dom_elem]
+
+    # Atmosphere from dominant element
+    elem_atmo = {
+        "fire":  "tutuşturan, enerjik ve ısıtan",
+        "earth": "toprak kokulu, kalıcı ve güven veren",
+        "air":   "uçucu, ferah ve özgür",
+        "water": "derin, akışkan ve sezgisel",
+    }
+    atmo = elem_atmo[dom_elem]
+
+    # Tone from darkness/sensuality
+    darkness = target.get("darkness", 0)
+    sensuality = target.get("sensuality", 0)
+    comfort = target.get("comfort", 0)
+
+    if darkness >= 3 and sensuality >= 3:
+        tone = "gizemli ve baştan çıkarıcı"
+    elif comfort >= 4:
+        tone = "sarıp sarmalayan ve güven veren"
+    elif sensuality >= 3:
+        tone = "duyusal ve akılda kalıcı"
+    elif darkness >= 3:
+        tone = "derin ve karmaşık"
+    else:
+        tone = "dengeli ve zarif"
+
+    # Top notes description
+    top_names = [to_tr(n["note"]) for n in top]
+    top_family = note_family(top[0]) if top else ""
+    top_str = " ve ".join(top_names)
+
+    # Heart notes
+    heart_names = [to_tr(n["note"]) for n in heart]
+    heart_str = ", ".join(heart_names[:-1]) + " ve " + heart_names[-1] if len(heart_names) > 1 else heart_names[0]
+
+    # Base notes
+    base_names = [to_tr(n["note"]) for n in base]
+    base_str = " ve ".join(base_names[:2])
+
+    # Opening sentences variants
+    openings = [
+        f"{sun} güneşinin gücü ve {asc} yükselenin hassasiyetiyle yoğrulmuş bu formül, sizi tam olarak yansıtmak için tasarlandı.",
+        f"{sun} enerjisi ve {moon} ayının derinliğini taşıyan bu imza koku, astrolojik haritanızdan damıtıldı.",
+        f"Haritanızdaki baskın {dom_tr} elementinin (%{elem_pcts[dom_elem]:.0f}) izinden gidilerek kişiselleştirilen bu formül, {atmo} bir karakter taşıyor.",
+    ]
+
+    # Layer descriptions
+    layer_desc = (
+        f"{top_str} ile ferah ve {top_family} bir açılış yapan koku, "
+        f"kalbinde {heart_str} ile derinleşiyor. "
+        f"Taban notaları {base_str}, kalıcılığı ve imzanızı oluşturuyor."
+    )
+
+    # Closing
+    closings = [
+        f"Tüm bunlar bir araya gelince ortaya {tone} bir imza koku çıkıyor.",
+        f"Sonuç; size özel, {tone} ve unutulmaz bir iz.",
+        f"Bu denge, {tone} bir kişilik için biçilmiş kaftan.",
+    ]
+
+    desc = random.choice(openings) + " " + layer_desc + " " + random.choice(closings)
+    return desc
+
 
 def load_engine():
     with open("fragrance_engine.json", "r", encoding="utf-8") as f:
@@ -434,50 +572,100 @@ def generate_explanations(top, heart, base, target, chart):
     reasons = []
     all_notes = top + heart + base
 
-    # Dominant element
+    # 1. Dominant element
     elem_pcts = {
         "fire": chart["fire_pct"], "earth": chart["earth_pct"],
         "air": chart["air_pct"], "water": chart["water_pct"],
     }
     dom_elem = max(elem_pcts, key=elem_pcts.get)
+    elem_tr = {"fire": "Ateş", "earth": "Toprak", "air": "Hava", "water": "Su"}
     reasons.append(
-        f"Dominant element: {dom_elem.capitalize()} (%{elem_pcts[dom_elem]:.0f}) — "
-        f"note selection biased toward matching element affinities."
+        f"Dominant element {elem_tr[dom_elem]} (%{elem_pcts[dom_elem]:.0f}) — "
+        f"nota seçimi bu elemente uyumlu kokuları ön plana çıkardı."
     )
 
-    # Sun/Moon/ASC
+    # 2. Sun/Moon/ASC
+    sign_tr = {
+        "aries": "Koç", "taurus": "Boğa", "gemini": "İkizler", "cancer": "Yengeç",
+        "leo": "Aslan", "virgo": "Başak", "libra": "Terazi", "scorpio": "Akrep",
+        "sagittarius": "Yay", "capricorn": "Oğlak", "aquarius": "Kova", "pisces": "Balık",
+    }
+    sun  = sign_tr.get(chart["sun_sign"], chart["sun_sign"].capitalize())
+    moon = sign_tr.get(chart["moon_sign"], chart["moon_sign"].capitalize())
+    asc  = sign_tr.get(chart["asc_sign"], chart["asc_sign"].capitalize())
     reasons.append(
-        f"Sun in {chart['sun_sign'].capitalize()}, Moon in {chart['moon_sign'].capitalize()}, "
-        f"ASC in {chart['asc_sign'].capitalize()} shaped the core attribute targets."
+        f"Güneş {sun}, Ay {moon}, Yükselen {asc} — "
+        f"bu üçlü formülün sıcaklık, yoğunluk ve duyusallık hedeflerini belirledi."
     )
 
-    # Highest sensuality note
+    # 3. Sensuality — honest gap reporting
     most_sensual = max(all_notes, key=lambda n: n["sensuality"])
-    reasons.append(
-        f"{most_sensual['note']} selected as sensuality anchor "
-        f"(sensuality={most_sensual['sensuality']}, target={target['sensuality']:.1f})."
-    )
-
-    # Freshness note
-    freshest = max(all_notes, key=lambda n: n["freshness"])
-    reasons.append(
-        f"{freshest['note']} provides freshness balance "
-        f"(freshness={freshest['freshness']}, target={target['freshness']:.1f})."
-    )
-
-    # Darkness note
-    darkest = max(all_notes, key=lambda n: n["darkness"])
-    if darkest["darkness"] >= 3:
+    sens_gap = abs(most_sensual["sensuality"] - target["sensuality"])
+    if sens_gap <= 1.0:
         reasons.append(
-            f"{darkest['note']} anchors the dark/resinous character "
-            f"(darkness={darkest['darkness']})."
+            f"{most_sensual['note']} duyusallık hedefini karşılıyor "
+            f"(duyusallık={most_sensual['sensuality']}, hedef={target['sensuality']:.1f})."
+        )
+    else:
+        reasons.append(
+            f"Duyusallık hedefi {target['sensuality']:.1f} iken element uyumu ve kullanım zamanı "
+            f"yüksek duyusal notaları baskıladı — {most_sensual['note']} ({most_sensual['sensuality']}) "
+            f"en iyi denge noktası olarak seçildi."
         )
 
-    # Top note mention
-    if top:
+    # 4. Freshness — honest gap reporting
+    freshest = max(all_notes, key=lambda n: n["freshness"])
+    fresh_gap = abs(freshest["freshness"] - target["freshness"])
+    if fresh_gap <= 1.5:
         reasons.append(
-            f"{top[0]['note']} opens the fragrance — "
-            f"high projection ({top[0]['projection']}) matches target {target['projection']:.1f}."
+            f"{freshest['note']} ferahlık dengesini sağlıyor "
+            f"(ferahlık={freshest['freshness']}, hedef={target['freshness']:.1f})."
+        )
+    else:
+        reasons.append(
+            f"Ferahlık hedefi {target['freshness']:.1f} — ağır base notaları baskın çıktı, "
+            f"{freshest['note']} ({freshest['freshness']}) formüle hava katıyor."
+        )
+
+    # 5. Darkness
+    darkest = max(all_notes, key=lambda n: n["darkness"])
+    dark_gap = abs(darkest["darkness"] - target["darkness"])
+    if darkest["darkness"] >= 3 and dark_gap <= 1.5:
+        reasons.append(
+            f"{darkest['note']} formülün karanlık/reçineli karakterini kuruyor "
+            f"(derinlik={darkest['darkness']}, hedef={target['darkness']:.1f})."
+        )
+    elif target["darkness"] >= 3 and darkest["darkness"] < 3:
+        reasons.append(
+            f"Harita derin ve karanlık notalar işaret etse de element dengesi "
+            f"formülü daha açık tuttu — en derin nota {darkest['note']} ({darkest['darkness']})."
+        )
+
+    # 6. Top note / açılış
+    if top:
+        proj_gap = abs(top[0]["projection"] - target["projection"])
+        if proj_gap <= 1.5:
+            reasons.append(
+                f"{top[0]['note']} açılışı güçlü tutuyor "
+                f"(projeksiyon={top[0]['projection']}, hedef={target['projection']:.1f})."
+            )
+        else:
+            reasons.append(
+                f"{top[0]['note']} formülü açıyor — projeksiyon hedefine ({target['projection']:.1f}) "
+                f"kısmen ulaşıyor ({top[0]['projection']})."
+            )
+
+    # 7. Comfort — if very high, mention it
+    avg_comfort = sum(n["comfort"] for n in all_notes) / len(all_notes)
+    if avg_comfort >= 3.5:
+        reasons.append(
+            f"Genel konfor skoru yüksek ({avg_comfort:.1f}/5) — "
+            f"bu formül günlük kullanıma çok uygun."
+        )
+    elif avg_comfort < 2.5:
+        reasons.append(
+            f"Formül konfordan çok karakter öncelikli ({avg_comfort:.1f}/5) — "
+            f"güçlü ve kendine özgü bir koku."
         )
 
     return reasons[:8]
@@ -568,30 +756,27 @@ def generate_scent(data):
     coherence = compute_coherence(top, heart, base)
     explanations = generate_explanations(top, heart, base, target, chart)
 
+    # Use normalized planet_signs for chart_summary display
+    ps = chart["planet_signs"]
+    description = generate_description(top, heart, base, target, chart)
+
     return {
         "selected_notes": {
-            "top":   [n["note"] for n in top],
-            "heart": [n["note"] for n in heart],
-            "base":  [n["note"] for n in base],
+            "top":   [to_tr(n["note"]) for n in top],
+            "heart": [to_tr(n["note"]) for n in heart],
+            "base":  [to_tr(n["note"]) for n in base],
         },
-        "attribute_profile": attr_profile,
-        "dominant_elements": dom_elements,
-        "coherence_score": coherence,
+        "description": description,
         "chart_summary": {
-            "sun_sign":  chart["sun_sign"],
-            "moon_sign": chart["moon_sign"],
-            "asc_sign":  chart["asc_sign"],
-            "elements":  {
-                "fire": chart["fire_pct"], "earth": chart["earth_pct"],
-                "air":  chart["air_pct"],  "water": chart["water_pct"],
-            },
-            "modalities": {
-                "cardinal": chart["cardinal_pct"],
-                "fixed":    chart["fixed_pct"],
-                "mutable":  chart["mutable_pct"],
-            },
+            "sun_sign":  SIGN_TR.get(ps.get("sun", ""), ps.get("sun", "")),
+            "moon_sign": SIGN_TR.get(ps.get("moon", ""), ps.get("moon", "")),
+            "asc_sign":  SIGN_TR.get(ps.get("asc", ""), ps.get("asc", "")),
+            "dominant_element": ELEM_TR.get(max(
+                {"fire": chart["fire_pct"], "earth": chart["earth_pct"],
+                 "air": chart["air_pct"], "water": chart["water_pct"]},
+                key=lambda k: {"fire": chart["fire_pct"], "earth": chart["earth_pct"],
+                               "air": chart["air_pct"], "water": chart["water_pct"]}[k]
+            ), ""),
         },
-        "explanations": {
-            "short_reasoning": explanations
-        },
+        "coherence_score": coherence,
     }
