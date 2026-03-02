@@ -66,16 +66,14 @@ def get_chart_data(person):
         "planet_signs":  planet_signs,
         "planet_houses": planet_houses,
         "aspects":       aspects_raw,
-        "fire_pct":      person.fire_perc,
-        "earth_pct":     person.earth_perc,
-        "air_pct":       person.air_perc,
-        "water_pct":     person.water_perc,
-        "cardinal_pct":  person.cardinal_perc,
-        "fixed_pct":     person.fixed_perc,
-        "mutable_pct":   person.mutable_perc,
-        "sun_sign":      safe_sign(person.sun),
-        "moon_sign":     safe_sign(person.moon),
-        "asc_sign":      safe_sign(person.first_house),
+                "fire_pct":      safe_attr(person, "fire_perc", "fire_percentage", "fire"),
+        "earth_pct":     safe_attr(person, "earth_perc", "earth_percentage", "earth"),
+        "air_pct":       safe_attr(person, "air_perc", "air_percentage", "air"),
+        "water_pct":     safe_attr(person, "water_perc", "water_percentage", "water"),
+
+        "cardinal_pct":  safe_attr(person, "cardinal_perc", "cardinal_percentage", "cardinal"),
+        "fixed_pct":     safe_attr(person, "fixed_perc", "fixed_percentage", "fixed"),
+        "mutable_pct":   safe_attr(person, "mutable_perc", "mutable_percentage", "mutable"),
     }
 
 
