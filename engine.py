@@ -1,9 +1,13 @@
 import json
+from pathlib import Path
 from kerykeion import AstrologicalSubject, NatalAspects
 
 
+ENGINE_PATH = Path(__file__).resolve().parent / "fragrance_engine.json"
+
+
 def load_engine():
-    with open("fragrance_engine.json", "r", encoding="utf-8") as f:
+    with open(ENGINE_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -77,7 +81,7 @@ def get_chart_data(person):
 
 def build_target_profile(chart, engine):
     """Accumulate weighted deltas into a target attribute vector."""
-    target = {a: 0.0 for a in ["temperature","density","sweetness","darkness","comfort","freshness","sensuality","projection"]}
+    target = {a: 0.0 for a in ["temperature", "density", "sweetness", "darkness", "comfort", "freshness", "sensuality", "projection"]}
     layer_bias = {"top": 0.0, "heart": 0.0, "base": 0.0}
     element_affinity = {"fire": 0.0, "earth": 0.0, "air": 0.0, "water": 0.0}
 
@@ -219,28 +223,13 @@ def dominant_element(note):
 
 def apply_constraints(top, heart, base, all_notes_by_layer, chart, engine):
     """Enforce all 6 constraints. Modifies lists in place."""
-    all_selected = top + heart + base
-
-    # Helper: replace lowest-scoring note in a layer list with best alternative
-    def force_include(target_list, candidate, layer_list_map):
-        layer = candidate["layer"]
-        lst = layer_list_map[layer]
-        if candidate in lst:
-            return
-        # Remove lowest score note (last in sorted list = lowest)
-        lst.sort(key=lambda n: n["_score"], reverse=True)
-        lst.pop()
-        lst.append(candidate)
-
     layer_map = {"top": top, "heart": heart, "base": base}
-    all_notes_flat = all_notes_by_layer["top"] + all_notes_by_layer["heart"] + all_notes_by_layer["base"]
 
     # 1. Base density cap: max 2 notes with density >= 4
     heavy = [n for n in base if n["density"] >= 4]
     if len(heavy) > 2:
         heavy.sort(key=lambda n: n["_score"])
         base.remove(heavy[0])
-        # Find replacement: base note, density < 4, not already selected
         selected_names = {n["note"] for n in top + heart + base}
         for candidate in sorted(all_notes_by_layer["base"], key=lambda n: n["_score"], reverse=True):
             if candidate["note"] not in selected_names and candidate["density"] < 4:
@@ -345,7 +334,6 @@ def generate_explanations(top, heart, base, target, chart):
     reasons = []
     all_notes = top + heart + base
 
-    # Dominant element
     elem_pcts = {
         "fire": chart["fire_pct"], "earth": chart["earth_pct"],
         "air": chart["air_pct"], "water": chart["water_pct"],
@@ -356,27 +344,23 @@ def generate_explanations(top, heart, base, target, chart):
         f"note selection biased toward matching element affinities."
     )
 
-    # Sun/Moon/ASC
     reasons.append(
         f"Sun in {chart['sun_sign'].capitalize()}, Moon in {chart['moon_sign'].capitalize()}, "
         f"ASC in {chart['asc_sign'].capitalize()} shaped the core attribute targets."
     )
 
-    # Highest sensuality note
     most_sensual = max(all_notes, key=lambda n: n["sensuality"])
     reasons.append(
         f"{most_sensual['note']} selected as sensuality anchor "
         f"(sensuality={most_sensual['sensuality']}, target={target['sensuality']:.1f})."
     )
 
-    # Freshness note
     freshest = max(all_notes, key=lambda n: n["freshness"])
     reasons.append(
         f"{freshest['note']} provides freshness balance "
         f"(freshness={freshest['freshness']}, target={target['freshness']:.1f})."
     )
 
-    # Darkness note
     darkest = max(all_notes, key=lambda n: n["darkness"])
     if darkest["darkness"] >= 3:
         reasons.append(
@@ -384,7 +368,6 @@ def generate_explanations(top, heart, base, target, chart):
             f"(darkness={darkest['darkness']})."
         )
 
-    # Top note mention
     if top:
         reasons.append(
             f"{top[0]['note']} opens the fragrance — "
@@ -395,7 +378,6 @@ def generate_explanations(top, heart, base, target, chart):
 
 
 def compute_coherence(top, heart, base):
-    """Simple coherence: 100 - score std dev penalty."""
     import statistics
     scores = [n["_score"] for n in top + heart + base]
     if len(scores) < 2:
@@ -408,6 +390,15 @@ def compute_coherence(top, heart, base):
 def generate_scent(data):
     engine = load_engine()
 
+    # --- sanitize inputs for Kerykeion ---
+    city = (data.get("city") or "").split(",")[0].strip()
+    nation = (data.get("nation") or "").strip().upper()
+
+    if not city:
+        raise ValueError("city is empty")
+    if not nation:
+        raise ValueError("nation is empty (use country code like 'TR')")
+
     person = AstrologicalSubject(
         data["name"],
         data["year"],
@@ -415,20 +406,19 @@ def generate_scent(data):
         data["day"],
         data["hour"],
         data["minute"],
-        data["city"],
-        data["nation"],
+        city,
+        nation,
     )
 
     chart = get_chart_data(person)
     target, layer_bias, element_affinity = build_target_profile(chart, engine)
     tag_bonuses = collect_house_tag_bonuses(chart, engine)
 
-    # Score all notes
     notes = engine["note_attribute_matrix"]
 
-    # Apply user preferences
     disliked_tags = set(data.get("disliked_tags") or [])
-    usage_time = data.get("usage_time", "")
+    usage_time = (data.get("usage_time") or "").strip().lower()
+
     if usage_time == "night":
         target["darkness"] = min(5, target["darkness"] + 0.5)
         target["sensuality"] = min(5, target["sensuality"] + 0.5)
@@ -439,7 +429,6 @@ def generate_scent(data):
 
     scored = []
     for note in notes:
-        # Hard filter: remove disliked tag notes
         if disliked_tags and set(note.get("tags", [])) & disliked_tags:
             continue
         s = score_note(note, target, layer_bias, element_affinity, tag_bonuses)
@@ -447,34 +436,23 @@ def generate_scent(data):
         note_copy["_score"] = s
         scored.append(note_copy)
 
-    # Partition by layer and sort
     by_layer = {
         "top":   sorted([n for n in scored if n["layer"] == "top"],   key=lambda n: n["_score"], reverse=True),
         "heart": sorted([n for n in scored if n["layer"] == "heart"], key=lambda n: n["_score"], reverse=True),
         "base":  sorted([n for n in scored if n["layer"] == "base"],  key=lambda n: n["_score"], reverse=True),
     }
 
-    # Initial selection
-    top   = list(by_layer["top"][:2])
+    top = list(by_layer["top"][:2])
     heart = list(by_layer["heart"][:3])
-    base  = list(by_layer["base"][:3])
+    base = list(by_layer["base"][:3])
 
-    # Apply constraints
     top, heart, base = apply_constraints(top, heart, base, by_layer, chart, engine)
 
-    # Compute attribute profile (average of selected notes)
     all_selected = top + heart + base
-    attrs = ["temperature","density","sweetness","darkness","comfort","freshness","sensuality","projection"]
-    attr_profile = {
-        a: round(sum(n[a] for n in all_selected) / len(all_selected), 2)
-        for a in attrs
-    }
+    attrs = ["temperature", "density", "sweetness", "darkness", "comfort", "freshness", "sensuality", "projection"]
+    attr_profile = {a: round(sum(n[a] for n in all_selected) / len(all_selected), 2) for a in attrs}
 
-    # Dominant elements (sum of affinities)
-    dom_elements = {
-        e: round(sum(n["element_affinity"][e] for n in all_selected), 2)
-        for e in ["fire","earth","air","water"]
-    }
+    dom_elements = {e: round(sum(n["element_affinity"][e] for n in all_selected), 2) for e in ["fire", "earth", "air", "water"]}
 
     coherence = compute_coherence(top, heart, base)
     explanations = generate_explanations(top, heart, base, target, chart)
