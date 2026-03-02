@@ -240,12 +240,34 @@ def get_chart_data(person):
         except Exception:
             return None
 
+    # ASC: try multiple Kerykeion attribute names
+    def get_asc_sign():
+        for attr in ['first_house', 'ascendant', 'asc']:
+            try:
+                obj = getattr(person, attr, None)
+                if obj is None:
+                    continue
+                sign = getattr(obj, 'sign', None)
+                if sign:
+                    return SIGN_NORMALIZE.get(sign.lower().strip(), sign.lower().strip())
+            except Exception:
+                continue
+        # Last resort: check houses list
+        try:
+            for house in person.houses_list:
+                if house.get('name') in ['First_House', 'House_1', '1']:
+                    s = house.get('sign', '')
+                    return SIGN_NORMALIZE.get(s.lower(), s.lower())
+        except Exception:
+            pass
+        return None
+
     planet_signs = {
         "sun":     safe_sign(person.sun),
         "moon":    safe_sign(person.moon),
         "venus":   safe_sign(person.venus),
         "mars":    safe_sign(person.mars),
-        "asc":     safe_sign(person.first_house),
+        "asc":     get_asc_sign(),
         "jupiter": safe_sign(person.jupiter),
         "saturn":  safe_sign(person.saturn),
         "neptune": safe_sign(person.neptune),
