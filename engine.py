@@ -175,10 +175,11 @@ def calc_element_modality(planet_signs):
     """Calculate element and modality percentages from planet signs."""
     # Weighted planets: personal planets count more
     weights = {
-        "sun": 3, "moon": 3, "asc": 3,
-        "venus": 2, "mars": 2,
-        "mercury": 1, "jupiter": 1, "saturn": 1,
-        "neptune": 1, "pluto": 1,
+        "sun": 3, "moon": 2, "asc": 2,
+        "mercury": 1.5, "venus": 1.5, "mars": 1.5,
+        "jupiter": 1, "saturn": 1, "mc": 1,
+        "sun_ruler": 1, "asc_ruler": 1,
+        # neptune, pluto, uranus excluded (generational)
     }
 
     elem_score = {"fire": 0, "earth": 0, "air": 0, "water": 0}
@@ -262,27 +263,74 @@ def get_chart_data(person):
             pass
         return None
 
+    # Traditional sign rulers for dispositor calculation
+    TRADITIONAL_RULERS = {
+        "aries": "mars", "taurus": "venus", "gemini": "mercury",
+        "cancer": "moon", "leo": "sun", "virgo": "mercury",
+        "libra": "venus", "scorpio": "mars", "sagittarius": "jupiter",
+        "capricorn": "saturn", "aquarius": "saturn", "pisces": "jupiter",
+    }
+
+    def get_mc_sign():
+        """Get MC (10th house cusp) sign."""
+        try:
+            for house in person.houses_list:
+                name = house.get("name", "") if isinstance(house, dict) else getattr(house, "name", "")
+                sign = house.get("sign", "") if isinstance(house, dict) else getattr(house, "sign", "")
+                if name in ["Tenth_House", "House_10", "10", "MC"]:
+                    return SIGN_NORMALIZE.get(sign.lower(), sign.lower())
+        except Exception:
+            pass
+        try:
+            return SIGN_NORMALIZE.get(person.tenth_house.sign.lower(), None)
+        except Exception:
+            pass
+        return None
+
+    def get_planet_sign_by_name(planet_name):
+        """Get sign for a planet by name string."""
+        mapping = {
+            "sun": person.sun, "moon": person.moon, "mercury": person.mercury,
+            "venus": person.venus, "mars": person.mars, "jupiter": person.jupiter,
+            "saturn": person.saturn,
+        }
+        p = mapping.get(planet_name)
+        if p:
+            return safe_sign(p)
+        return None
+
+    asc_sign = get_asc_sign()
+    sun_sign = safe_sign(person.sun)
+    mc_sign = get_mc_sign()
+
+    # Dispositors: ruler of ASC sign and ruler of Sun sign
+    asc_ruler_planet = TRADITIONAL_RULERS.get(asc_sign) if asc_sign else None
+    sun_ruler_planet = TRADITIONAL_RULERS.get(sun_sign) if sun_sign else None
+    asc_ruler_sign = get_planet_sign_by_name(asc_ruler_planet) if asc_ruler_planet else None
+    sun_ruler_sign = get_planet_sign_by_name(sun_ruler_planet) if sun_ruler_planet else None
+
     planet_signs = {
-        "sun":     safe_sign(person.sun),
-        "moon":    safe_sign(person.moon),
-        "venus":   safe_sign(person.venus),
-        "mars":    safe_sign(person.mars),
-        "asc":     get_asc_sign(),
-        "jupiter": safe_sign(person.jupiter),
-        "saturn":  safe_sign(person.saturn),
-        "neptune": safe_sign(person.neptune),
-        "pluto":   safe_sign(person.pluto),
+        "sun":      sun_sign,
+        "moon":     safe_sign(person.moon),
+        "mercury":  safe_sign(person.mercury),
+        "venus":    safe_sign(person.venus),
+        "mars":     safe_sign(person.mars),
+        "asc":      asc_sign,
+        "mc":       mc_sign,
+        "jupiter":  safe_sign(person.jupiter),
+        "saturn":   safe_sign(person.saturn),
+        "asc_ruler": asc_ruler_sign,
+        "sun_ruler": sun_ruler_sign,
     }
 
     planet_houses = {
         "sun":     safe_house(person.sun),
         "moon":    safe_house(person.moon),
+        "mercury": safe_house(person.mercury),
         "venus":   safe_house(person.venus),
         "mars":    safe_house(person.mars),
         "jupiter": safe_house(person.jupiter),
         "saturn":  safe_house(person.saturn),
-        "neptune": safe_house(person.neptune),
-        "pluto":   safe_house(person.pluto),
     }
 
     # Calculate elements & modalities ourselves — avoids Kerykeion version issues
@@ -793,6 +841,7 @@ def generate_scent(data):
             "sun_sign":    SIGN_TR.get(ps.get("sun",    ""), ps.get("sun",    "")),
             "moon_sign":   SIGN_TR.get(ps.get("moon",   ""), ps.get("moon",   "")),
             "asc_sign":    SIGN_TR.get(ps.get("asc",    ""), ps.get("asc",    "")),
+            "mc_sign":     SIGN_TR.get(ps.get("mc",     ""), ps.get("mc",     "")),
             "venus_sign":  SIGN_TR.get(ps.get("venus",  ""), ps.get("venus",  "")),
             "mars_sign":   SIGN_TR.get(ps.get("mars",   ""), ps.get("mars",   "")),
             "dominant_element": ELEM_TR.get(max(
