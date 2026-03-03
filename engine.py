@@ -179,7 +179,6 @@ def calc_element_modality(planet_signs):
         "mercury": 1.5, "venus": 1.5, "mars": 1.5,
         "jupiter": 1, "saturn": 1, "mc": 1,
         "sun_ruler": 1, "asc_ruler": 1,
-        # neptune, pluto, uranus excluded (generational)
     }
 
     elem_score = {"fire": 0, "earth": 0, "air": 0, "water": 0}
@@ -263,7 +262,6 @@ def get_chart_data(person):
             pass
         return None
 
-    # Traditional sign rulers for dispositor calculation
     TRADITIONAL_RULERS = {
         "aries": "mars", "taurus": "venus", "gemini": "mercury",
         "cancer": "moon", "leo": "sun", "virgo": "mercury",
@@ -272,7 +270,6 @@ def get_chart_data(person):
     }
 
     def get_mc_sign():
-        """Get MC (10th house cusp) sign."""
         try:
             for house in person.houses_list:
                 name = house.get("name", "") if isinstance(house, dict) else getattr(house, "name", "")
@@ -281,44 +278,35 @@ def get_chart_data(person):
                     return SIGN_NORMALIZE.get(sign.lower(), sign.lower())
         except Exception:
             pass
-        try:
-            return SIGN_NORMALIZE.get(person.tenth_house.sign.lower(), None)
-        except Exception:
-            pass
         return None
 
     def get_planet_sign_by_name(planet_name):
-        """Get sign for a planet by name string."""
         mapping = {
             "sun": person.sun, "moon": person.moon, "mercury": person.mercury,
-            "venus": person.venus, "mars": person.mars, "jupiter": person.jupiter,
-            "saturn": person.saturn,
+            "venus": person.venus, "mars": person.mars,
+            "jupiter": person.jupiter, "saturn": person.saturn,
         }
         p = mapping.get(planet_name)
-        if p:
-            return safe_sign(p)
-        return None
+        return safe_sign(p) if p else None
 
     asc_sign = get_asc_sign()
     sun_sign = safe_sign(person.sun)
     mc_sign = get_mc_sign()
-
-    # Dispositors: ruler of ASC sign and ruler of Sun sign
     asc_ruler_planet = TRADITIONAL_RULERS.get(asc_sign) if asc_sign else None
     sun_ruler_planet = TRADITIONAL_RULERS.get(sun_sign) if sun_sign else None
     asc_ruler_sign = get_planet_sign_by_name(asc_ruler_planet) if asc_ruler_planet else None
     sun_ruler_sign = get_planet_sign_by_name(sun_ruler_planet) if sun_ruler_planet else None
 
     planet_signs = {
-        "sun":      sun_sign,
-        "moon":     safe_sign(person.moon),
-        "mercury":  safe_sign(person.mercury),
-        "venus":    safe_sign(person.venus),
-        "mars":     safe_sign(person.mars),
-        "asc":      asc_sign,
-        "mc":       mc_sign,
-        "jupiter":  safe_sign(person.jupiter),
-        "saturn":   safe_sign(person.saturn),
+        "sun":       sun_sign,
+        "moon":      safe_sign(person.moon),
+        "mercury":   safe_sign(person.mercury),
+        "venus":     safe_sign(person.venus),
+        "mars":      safe_sign(person.mars),
+        "asc":       asc_sign,
+        "mc":        mc_sign,
+        "jupiter":   safe_sign(person.jupiter),
+        "saturn":    safe_sign(person.saturn),
         "asc_ruler": asc_ruler_sign,
         "sun_ruler": sun_ruler_sign,
     }
@@ -449,6 +437,7 @@ def build_target_profile(chart, engine):
     # --- Aspect modifiers ---
     aspect_mods = engine["astro_modifier_model"]["aspect_modifiers"]
     aspect_w = weights.get("aspects", 0) / 100.0
+    aspect_tag_bonuses = []
     for asp in chart["aspects"]:
         p1, p2, asp_type = asp["p1"], asp["p2"], asp["type"]
         mod_dict = aspect_mods.get(f"{p1}_{p2}") or aspect_mods.get(f"{p2}_{p1}")
@@ -459,6 +448,9 @@ def build_target_profile(chart, engine):
             key = f"{attr}_delta"
             if key in mod:
                 target[attr] += aspect_w * mod[key]
+        contrast = mod.get("contrast_rules", {})
+        if "note_tag_bonus" in contrast:
+            aspect_tag_bonuses.append(contrast["note_tag_bonus"])
 
     # --- Clamp ---
     clamp = {
@@ -769,6 +761,19 @@ def generate_scent(data):
     chart = get_chart_data(person)
     target, layer_bias, element_affinity = build_target_profile(chart, engine)
     tag_bonuses = collect_house_tag_bonuses(chart, engine)
+    # Merge aspect tag bonuses
+    for asp_bonus in aspect_tag_bonuses if "aspect_tag_bonuses" in dir() else []:
+        for tag, val in asp_bonus.items():
+            tag_bonuses_merged = {}
+    # Build combined tag bonus dict
+    combined_tag_bonuses = {}
+    for bonus_dict in tag_bonuses:
+        for tag, val in bonus_dict.items():
+            combined_tag_bonuses[tag] = combined_tag_bonuses.get(tag, 0) + val
+    for bonus_dict in (aspect_tag_bonuses if "aspect_tag_bonuses" in dir() else []):
+        for tag, val in bonus_dict.items():
+            combined_tag_bonuses[tag] = combined_tag_bonuses.get(tag, 0) + val
+    tag_bonuses = [combined_tag_bonuses] if combined_tag_bonuses else tag_bonuses
 
     # Score all notes
     notes = engine["note_attribute_matrix"]
