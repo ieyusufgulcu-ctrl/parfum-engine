@@ -270,6 +270,16 @@ def get_chart_data(person):
     }
 
     def get_mc_sign():
+        # Try tenth_house attribute directly (most reliable)
+        try:
+            sign = person.tenth_house.sign.lower().strip()
+            # Kerykeion uses 3-letter abbrev like "Pis" -> normalize
+            normalized = SIGN_NORMALIZE.get(sign, sign)
+            if normalized in SIGN_ELEMENT:
+                return normalized
+        except Exception:
+            pass
+        # Fallback: houses_list
         try:
             for house in person.houses_list:
                 name = house.get("name", "") if isinstance(house, dict) else getattr(house, "name", "")
