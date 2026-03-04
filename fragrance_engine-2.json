@@ -1,0 +1,6303 @@
+{
+  "note_attribute_matrix": [
+    {
+      "note": "Blackberry",
+      "layer": "top",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 1,
+        "water": 2
+      },
+      "tags": [
+        "fruity",
+        "clean",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Cucumber",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 2,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 3
+      },
+      "tags": [
+        "aquatic",
+        "clean",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "note": "Almond",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 4,
+      "darkness": 1,
+      "comfort": 5,
+      "projection": 2,
+      "freshness": 0,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "gourmand",
+        "powdery",
+        "nutty"
+      ]
+    },
+    {
+      "note": "Musk",
+      "layer": "base",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 2,
+      "darkness": 2,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 1,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 2
+      },
+      "tags": [
+        "clean",
+        "powdery",
+        "sensual"
+      ]
+    },
+    {
+      "note": "Apricot",
+      "layer": "top",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 4,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "gourmand",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Lavender",
+      "layer": "heart",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "aromatic",
+        "clean",
+        "floral",
+        "powdery"
+      ]
+    },
+    {
+      "note": "Amber",
+      "layer": "base",
+      "temperature": 2,
+      "density": 5,
+      "sweetness": 3,
+      "darkness": 3,
+      "comfort": 4,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 3,
+        "earth": 2,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "resinous",
+        "warm",
+        "sensual"
+      ]
+    },
+    {
+      "note": "Violet",
+      "layer": "heart",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 4,
+      "projection": 2,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "powdery",
+        "green"
+      ]
+    },
+    {
+      "note": "Linden",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 5,
+      "projection": 2,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "floral",
+        "aromatic",
+        "clean"
+      ]
+    },
+    {
+      "note": "Orange",
+      "layer": "top",
+      "temperature": 1,
+      "density": 1,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 4,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "citrus",
+        "fresh",
+        "fruity"
+      ]
+    },
+    {
+      "note": "Rose",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 2,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "sensual",
+        "classic"
+      ]
+    },
+    {
+      "note": "Vanilla",
+      "layer": "base",
+      "temperature": 2,
+      "density": 4,
+      "sweetness": 5,
+      "darkness": 1,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "gourmand",
+        "sweet",
+        "warm",
+        "comfort"
+      ]
+    },
+    {
+      "note": "Ocean",
+      "layer": "top",
+      "temperature": -2,
+      "density": 1,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 0,
+        "air": 2,
+        "water": 3
+      },
+      "tags": [
+        "aquatic",
+        "fresh",
+        "clean",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "Tangerine",
+      "layer": "top",
+      "temperature": 1,
+      "density": 1,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 0,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "citrus",
+        "fresh",
+        "fruity"
+      ]
+    },
+    {
+      "note": "Cinnamon",
+      "layer": "heart",
+      "temperature": 2,
+      "density": 3,
+      "sweetness": 3,
+      "darkness": 2,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 3,
+        "earth": 2,
+        "air": 1,
+        "water": 0
+      },
+      "tags": [
+        "spicy",
+        "warm",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Lilac",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "floral",
+        "powdery",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Chocolate",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 5,
+      "darkness": 3,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "gourmand",
+        "dark",
+        "sweet",
+        "warm"
+      ]
+    },
+    {
+      "note": "Jasmine",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 2,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 2,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "sensual",
+        "exotic"
+      ]
+    },
+    {
+      "note": "Lily",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "clean",
+        "green"
+      ]
+    },
+    {
+      "note": "Sandalwood",
+      "layer": "base",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 2,
+      "darkness": 2,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "woody",
+        "creamy",
+        "warm",
+        "sensual"
+      ]
+    },
+    {
+      "note": "Pine",
+      "layer": "top",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "aromatic",
+        "fresh",
+        "woody",
+        "green"
+      ]
+    },
+    {
+      "note": "Eucalyptus",
+      "layer": "top",
+      "temperature": -2,
+      "density": 1,
+      "sweetness": 0,
+      "darkness": 0,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "aromatic",
+        "clean",
+        "fresh",
+        "medicinal"
+      ]
+    },
+    {
+      "note": "Magnolia",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "floral",
+        "clean",
+        "powdery"
+      ]
+    },
+    {
+      "note": "Narcissus",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 1,
+      "darkness": 2,
+      "comfort": 2,
+      "projection": 3,
+      "freshness": 2,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "green",
+        "earthy",
+        "exotic"
+      ]
+    },
+    {
+      "note": "Chamomile",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 5,
+      "projection": 2,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 2,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "aromatic",
+        "clean",
+        "herbal",
+        "comfort"
+      ]
+    },
+    {
+      "note": "Bay Tree",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "aromatic",
+        "spicy",
+        "green",
+        "herbal"
+      ]
+    },
+    {
+      "note": "Caramel",
+      "layer": "base",
+      "temperature": 2,
+      "density": 4,
+      "sweetness": 5,
+      "darkness": 2,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 3,
+        "earth": 2,
+        "air": 0,
+        "water": 0
+      },
+      "tags": [
+        "gourmand",
+        "sweet",
+        "warm",
+        "dark"
+      ]
+    },
+    {
+      "note": "Patchouli",
+      "layer": "base",
+      "temperature": 1,
+      "density": 5,
+      "sweetness": 1,
+      "darkness": 4,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "earthy",
+        "dark",
+        "resinous",
+        "woody",
+        "sensual"
+      ]
+    },
+    {
+      "note": "Coconut",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 4,
+      "darkness": 0,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 1,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 2
+      },
+      "tags": [
+        "gourmand",
+        "tropical",
+        "sweet",
+        "creamy"
+      ]
+    },
+    {
+      "note": "Green Apple",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "fresh",
+        "green",
+        "citrus"
+      ]
+    },
+    {
+      "note": "Green Tea",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "aromatic",
+        "clean",
+        "green",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Latte",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 3,
+      "darkness": 2,
+      "comfort": 5,
+      "projection": 2,
+      "freshness": 0,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 2,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "gourmand",
+        "warm",
+        "creamy",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "Royal Oud",
+      "layer": "base",
+      "temperature": 2,
+      "density": 5,
+      "sweetness": 1,
+      "darkness": 5,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 0,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 2,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "resinous",
+        "dark",
+        "woody",
+        "sensual",
+        "exotic"
+      ]
+    },
+    {
+      "note": "Cedar Tree",
+      "layer": "base",
+      "temperature": 0,
+      "density": 4,
+      "sweetness": 1,
+      "darkness": 2,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 1,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 3,
+        "air": 1,
+        "water": 0
+      },
+      "tags": [
+        "woody",
+        "dry",
+        "clean"
+      ]
+    },
+    {
+      "note": "Ylang Ylang",
+      "layer": "heart",
+      "temperature": 2,
+      "density": 3,
+      "sweetness": 3,
+      "darkness": 2,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 0,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 0,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "exotic",
+        "sensual",
+        "tropical"
+      ]
+    },
+    {
+      "note": "Lemon",
+      "layer": "top",
+      "temperature": 1,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 5,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "citrus",
+        "fresh",
+        "clean"
+      ]
+    },
+    {
+      "note": "Melon",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "fruity",
+        "fresh",
+        "aquatic"
+      ]
+    },
+    {
+      "note": "Grape",
+      "layer": "top",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 1,
+        "water": 2
+      },
+      "tags": [
+        "fruity",
+        "fresh",
+        "sweet"
+      ]
+    },
+    {
+      "note": "Cashmere",
+      "layer": "base",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "powdery",
+        "warm",
+        "sensual",
+        "soft"
+      ]
+    },
+    {
+      "note": "Japanese Cherry",
+      "layer": "top",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "floral",
+        "fresh",
+        "powdery"
+      ]
+    },
+    {
+      "note": "Mango",
+      "layer": "top",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 4,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "tropical",
+        "sweet",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Baby Powder",
+      "layer": "base",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 5,
+      "projection": 2,
+      "freshness": 2,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "powdery",
+        "clean",
+        "soft",
+        "comfort"
+      ]
+    },
+    {
+      "note": "Olive",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 0,
+      "darkness": 2,
+      "comfort": 2,
+      "projection": 2,
+      "freshness": 2,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 3,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "green",
+        "earthy",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Musk Amber",
+      "layer": "base",
+      "temperature": 2,
+      "density": 5,
+      "sweetness": 3,
+      "darkness": 3,
+      "comfort": 4,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 2,
+        "air": 0,
+        "water": 2
+      },
+      "tags": [
+        "resinous",
+        "sensual",
+        "warm",
+        "powdery"
+      ]
+    },
+    {
+      "note": "Rosemary",
+      "layer": "top",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 3,
+        "water": 0
+      },
+      "tags": [
+        "aromatic",
+        "herbal",
+        "fresh",
+        "clean"
+      ]
+    },
+    {
+      "note": "Clove",
+      "layer": "heart",
+      "temperature": 2,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 3,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 3,
+        "earth": 1,
+        "air": 1,
+        "water": 0
+      },
+      "tags": [
+        "spicy",
+        "warm",
+        "dark",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Sage",
+      "layer": "top",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 2,
+        "air": 3,
+        "water": 0
+      },
+      "tags": [
+        "aromatic",
+        "herbal",
+        "clean",
+        "green"
+      ]
+    },
+    {
+      "note": "Menthol",
+      "layer": "top",
+      "temperature": -2,
+      "density": 1,
+      "sweetness": 0,
+      "darkness": 0,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 0,
+        "air": 3,
+        "water": 2
+      },
+      "tags": [
+        "aromatic",
+        "fresh",
+        "clean",
+        "medicinal"
+      ]
+    },
+    {
+      "note": "Lotus",
+      "layer": "heart",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "aquatic",
+        "clean",
+        "exotic"
+      ]
+    },
+    {
+      "note": "Peach",
+      "layer": "top",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 4,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "sweet",
+        "fresh",
+        "soft"
+      ]
+    },
+    {
+      "note": "Silverberry",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 2,
+      "freshness": 3,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "floral",
+        "green",
+        "herbal"
+      ]
+    },
+    {
+      "note": "Pomegranate",
+      "layer": "top",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 2,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "tart",
+        "fresh",
+        "dark"
+      ]
+    },
+    {
+      "note": "Hyacinth",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "green",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Coffee",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 4,
+      "comfort": 4,
+      "projection": 4,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 3,
+        "air": 0,
+        "water": 0
+      },
+      "tags": [
+        "gourmand",
+        "dark",
+        "warm",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Honey",
+      "layer": "base",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 5,
+      "darkness": 1,
+      "comfort": 5,
+      "projection": 3,
+      "freshness": 0,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 2,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "gourmand",
+        "sweet",
+        "warm",
+        "floral"
+      ]
+    },
+    {
+      "note": "Lilium",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "clean",
+        "soft",
+        "green"
+      ]
+    },
+    {
+      "note": "Fig",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 2,
+      "comfort": 3,
+      "projection": 2,
+      "freshness": 1,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 3,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "green",
+        "earthy",
+        "woody"
+      ]
+    },
+    {
+      "note": "Honeysuckle",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 3,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "sweet",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Aloe Vera",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 2,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "aquatic",
+        "clean",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "note": "Lime",
+      "layer": "top",
+      "temperature": 0,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "citrus",
+        "fresh",
+        "tart",
+        "clean"
+      ]
+    },
+    {
+      "note": "Bergamot",
+      "layer": "top",
+      "temperature": 0,
+      "density": 1,
+      "sweetness": 1,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 5,
+      "freshness": 5,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 3,
+        "water": 1
+      },
+      "tags": [
+        "citrus",
+        "fresh",
+        "clean",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Gum",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 3,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 1,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "resinous",
+        "sweet",
+        "warm",
+        "aromatic"
+      ]
+    },
+    {
+      "note": "Red Flowers",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 2,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 1,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "floral",
+        "sensual",
+        "warm",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "Summer Fresh",
+      "layer": "top",
+      "temperature": -1,
+      "density": 1,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "fresh",
+        "clean",
+        "aquatic",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "White Poppy",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 2,
+      "comfort": 2,
+      "projection": 3,
+      "freshness": 2,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "powdery",
+        "soft",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "Banana",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 4,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 2,
+      "freshness": 1,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 0,
+        "water": 1
+      },
+      "tags": [
+        "fruity",
+        "sweet",
+        "gourmand",
+        "tropical"
+      ]
+    },
+    {
+      "note": "Orchid",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 2,
+      "sensuality": 4,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 0,
+        "air": 1,
+        "water": 3
+      },
+      "tags": [
+        "floral",
+        "exotic",
+        "sensual",
+        "tropical"
+      ]
+    },
+    {
+      "note": "Acacia",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 3,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 2,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 1,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "floral",
+        "sweet",
+        "aromatic",
+        "woody"
+      ]
+    },
+    {
+      "note": "Juniper",
+      "layer": "top",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 4,
+      "freshness": 5,
+      "sensuality": 0,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 2,
+        "air": 2,
+        "water": 1
+      },
+      "tags": [
+        "aromatic",
+        "fresh",
+        "woody",
+        "green"
+      ]
+    },
+    {
+      "note": "L'Afrodizyak d'Or",
+      "layer": "base",
+      "temperature": 2,
+      "density": 4,
+      "sweetness": 2,
+      "darkness": 3,
+      "comfort": 2,
+      "projection": 5,
+      "freshness": 0,
+      "sensuality": 5,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 0,
+        "water": 2
+      },
+      "tags": [
+        "sensual",
+        "warm",
+        "resinous",
+        "exotic",
+        "conceptual",
+        "mystical"
+      ]
+    },
+    {
+      "note": "Avocado",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 3,
+      "sweetness": 1,
+      "darkness": 1,
+      "comfort": 4,
+      "projection": 2,
+      "freshness": 2,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 3,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "green",
+        "creamy",
+        "earthy",
+        "soft"
+      ]
+    },
+    {
+      "note": "Istanbul",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 3,
+      "sweetness": 2,
+      "darkness": 3,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 1,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "spicy",
+        "oriental",
+        "resinous",
+        "aromatic",
+        "conceptual",
+        "mystical"
+      ]
+    },
+    {
+      "note": "Peony",
+      "layer": "heart",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 0,
+      "comfort": 4,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "soft",
+        "powdery",
+        "fresh"
+      ]
+    },
+    {
+      "note": "Black Pepper",
+      "layer": "top",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 1,
+      "projection": 4,
+      "freshness": 3,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 3,
+        "earth": 1,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "spicy",
+        "aromatic",
+        "fresh",
+        "warm"
+      ]
+    },
+    {
+      "note": "Blue Anemone",
+      "layer": "heart",
+      "temperature": -1,
+      "density": 2,
+      "sweetness": 1,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "floral",
+        "aquatic",
+        "fresh",
+        "conceptual"
+      ]
+    },
+    {
+      "note": "Thyme",
+      "layer": "top",
+      "temperature": 0,
+      "density": 2,
+      "sweetness": 0,
+      "darkness": 1,
+      "comfort": 2,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "herbal",
+        "aromatic",
+        "fresh",
+        "green"
+      ]
+    },
+    {
+      "note": "Pear",
+      "layer": "top",
+      "temperature": 0,
+      "density": 1,
+      "sweetness": 3,
+      "darkness": 0,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 4,
+      "sensuality": 1,
+      "element_affinity": {
+        "fire": 0,
+        "earth": 1,
+        "air": 2,
+        "water": 2
+      },
+      "tags": [
+        "fruity",
+        "fresh",
+        "green",
+        "soft"
+      ]
+    },
+    {
+      "note": "Mastic Gum",
+      "layer": "base",
+      "temperature": 1,
+      "density": 4,
+      "sweetness": 2,
+      "darkness": 2,
+      "comfort": 3,
+      "projection": 3,
+      "freshness": 1,
+      "sensuality": 2,
+      "element_affinity": {
+        "fire": 1,
+        "earth": 2,
+        "air": 1,
+        "water": 1
+      },
+      "tags": [
+        "resinous",
+        "aromatic",
+        "woody",
+        "clean"
+      ]
+    },
+    {
+      "note": "Cardamom",
+      "layer": "heart",
+      "temperature": 1,
+      "density": 2,
+      "sweetness": 2,
+      "darkness": 1,
+      "comfort": 3,
+      "projection": 4,
+      "freshness": 2,
+      "sensuality": 3,
+      "element_affinity": {
+        "fire": 2,
+        "earth": 1,
+        "air": 2,
+        "water": 0
+      },
+      "tags": [
+        "spicy",
+        "aromatic",
+        "warm",
+        "exotic"
+      ]
+    }
+  ],
+  "astro_modifier_model": {
+    "planet_sign_modifiers": {
+      "sun": {
+        "aries": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": -1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 0,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": -1,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 3,
+            "water": -1
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 0,
+          "comfort_delta": 3,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": -1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 3,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -1,
+            "water": 2
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 0,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          }
+        }
+      },
+      "moon": {
+        "aries": {
+          "temperature_delta": 1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": -1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 0,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 3,
+          "darkness_delta": 0,
+          "comfort_delta": 3,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -2,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 3,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 3,
+            "heart": 0,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -2,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": 3,
+          "darkness_delta": 1,
+          "comfort_delta": 3,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 3,
+          "darkness_delta": -1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 3,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 3,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 3,
+          "sweetness_delta": -1,
+          "darkness_delta": 3,
+          "comfort_delta": -2,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -3,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -2,
+            "water": 3
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 2,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -2,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 3,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 2,
+          "comfort_delta": 3,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          }
+        }
+      },
+      "venus": {
+        "aries": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 2,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 3,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 3,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 3,
+            "heart": 1,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 3,
+          "darkness_delta": 0,
+          "comfort_delta": 3,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": 0,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 3,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 0,
+            "heart": 3,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          }
+        },
+        "virgo": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": 3,
+          "darkness_delta": -1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 3,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 3,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 0,
+          "darkness_delta": 3,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 1,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -2,
+            "water": 3
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 2,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 2,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 3,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 3,
+            "water": 1
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 2,
+          "comfort_delta": 3,
+          "freshness_delta": 1,
+          "sensuality_delta": 3,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          }
+        }
+      },
+      "mars": {
+        "aries": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": -1,
+          "freshness_delta": 2,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": -1,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": -1,
+            "air": 3,
+            "water": -1
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": -1,
+            "water": 2
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 3,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 2,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 2,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 3,
+          "comfort_delta": -2,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": -1,
+            "water": 2
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": 0,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": -1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 0,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": -1,
+            "air": 3,
+            "water": -1
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 2,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 0,
+            "water": 3
+          }
+        }
+      },
+      "asc": {
+        "aries": {
+          "temperature_delta": 2,
+          "density_delta": -1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": -1,
+          "freshness_delta": 3,
+          "sensuality_delta": 1,
+          "projection_delta": 3,
+          "layer_bias": {
+            "top": 3,
+            "heart": 0,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": -1,
+          "sensuality_delta": 2,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 3,
+          "sensuality_delta": 0,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 3,
+            "heart": 1,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -2,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": 3,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 3,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 2,
+            "water": -1
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 2,
+          "darkness_delta": -1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 3,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 3,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 3,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -2,
+            "water": 2
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 2,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 3,
+          "sensuality_delta": 0,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 3,
+            "heart": 0,
+            "base": -2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -2,
+            "air": 3,
+            "water": 0
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          }
+        }
+      },
+      "jupiter": {
+        "aries": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "taurus": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 0,
+          "comfort_delta": 2,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 2,
+            "air": 0,
+            "water": 1
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 2,
+          "darkness_delta": 0,
+          "comfort_delta": 3,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 2
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          }
+        },
+        "virgo": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 2,
+          "darkness_delta": -1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 2,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -1,
+            "water": 2
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 2,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 0,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 2,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 1
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 2
+          }
+        }
+      },
+      "saturn": {
+        "aries": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": -2,
+          "darkness_delta": 1,
+          "comfort_delta": -1,
+          "freshness_delta": 1,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "taurus": {
+          "temperature_delta": 0,
+          "density_delta": 2,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": -1,
+          "sensuality_delta": 0,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "gemini": {
+          "temperature_delta": -1,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 2,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 0,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "leo": {
+          "temperature_delta": 1,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": -1,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": -1,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 0,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 0,
+          "density_delta": 2,
+          "sweetness_delta": -2,
+          "darkness_delta": 3,
+          "comfort_delta": -2,
+          "freshness_delta": -1,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -2,
+            "heart": -1,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": -2,
+            "water": 1
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 1,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -2,
+          "density_delta": 3,
+          "sweetness_delta": -2,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 0,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": 0,
+          "sweetness_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": -1,
+          "freshness_delta": 1,
+          "sensuality_delta": -1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": -1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 2,
+            "water": -1
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 0,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 0,
+            "water": 2
+          }
+        }
+      },
+      "neptune": {
+        "aries": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": -1,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "taurus": {
+          "temperature_delta": 0,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 2,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 2,
+          "sensuality_delta": 0,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 0,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 1
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 2,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": -1,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 1,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          }
+        },
+        "virgo": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 0,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 1,
+            "water": 0
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 1,
+          "darkness_delta": -1,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 2,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 0,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 3,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": -2,
+            "water": 3
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 1,
+          "density_delta": -1,
+          "sweetness_delta": 1,
+          "darkness_delta": 0,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": -1,
+            "air": 1,
+            "water": 1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": -1,
+            "water": 1
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 0,
+          "comfort_delta": 0,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": -1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 2
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": 2,
+          "darkness_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 3,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 0,
+            "water": 3
+          }
+        }
+      },
+      "pluto": {
+        "aries": {
+          "temperature_delta": 1,
+          "density_delta": 0,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": 1,
+          "sensuality_delta": 2,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          }
+        },
+        "taurus": {
+          "temperature_delta": 0,
+          "density_delta": 2,
+          "sweetness_delta": 0,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": -1,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "gemini": {
+          "temperature_delta": 0,
+          "density_delta": -1,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 0
+          }
+        },
+        "cancer": {
+          "temperature_delta": -1,
+          "density_delta": 1,
+          "sweetness_delta": 1,
+          "darkness_delta": 2,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": -1,
+            "water": 3
+          }
+        },
+        "leo": {
+          "temperature_delta": 2,
+          "density_delta": 1,
+          "sweetness_delta": 0,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 3,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": -1,
+            "water": -1
+          }
+        },
+        "virgo": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": 0,
+            "water": -1
+          }
+        },
+        "libra": {
+          "temperature_delta": 0,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "sensuality_delta": 2,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          }
+        },
+        "scorpio": {
+          "temperature_delta": 1,
+          "density_delta": 3,
+          "sweetness_delta": -2,
+          "darkness_delta": 3,
+          "comfort_delta": -2,
+          "freshness_delta": -2,
+          "sensuality_delta": 3,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": -3,
+            "heart": -1,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -2,
+            "water": 3
+          }
+        },
+        "sagittarius": {
+          "temperature_delta": 1,
+          "density_delta": 0,
+          "sweetness_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": -1,
+            "air": 1,
+            "water": -1
+          }
+        },
+        "capricorn": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": -2,
+          "darkness_delta": 3,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "sensuality_delta": 1,
+          "projection_delta": 0,
+          "layer_bias": {
+            "top": -2,
+            "heart": -1,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 3,
+            "air": -1,
+            "water": 0
+          }
+        },
+        "aquarius": {
+          "temperature_delta": -1,
+          "density_delta": 0,
+          "sweetness_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": -1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": -1,
+            "air": 2,
+            "water": 0
+          }
+        },
+        "pisces": {
+          "temperature_delta": -1,
+          "density_delta": 2,
+          "sweetness_delta": 1,
+          "darkness_delta": 3,
+          "comfort_delta": 1,
+          "freshness_delta": 0,
+          "sensuality_delta": 3,
+          "projection_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 0,
+            "water": 3
+          }
+        }
+      }
+    },
+    "element_distribution_modifiers": {
+      "fire": {
+        "per_10pct": {
+          "temperature_delta": 0.2,
+          "density_delta": 0.0,
+          "sweetness_delta": -0.1,
+          "darkness_delta": 0.15,
+          "comfort_delta": -0.1,
+          "freshness_delta": 0.1,
+          "sensuality_delta": 0.2,
+          "projection_delta": 0.2,
+          "layer_bias": {
+            "top": 0.15,
+            "heart": 0.1,
+            "base": -0.1
+          },
+          "element_boost": {
+            "fire": 0.3,
+            "earth": 0.0,
+            "air": 0.0,
+            "water": -0.1
+          }
+        }
+      },
+      "earth": {
+        "per_10pct": {
+          "temperature_delta": -0.1,
+          "density_delta": 0.25,
+          "sweetness_delta": 0.1,
+          "darkness_delta": 0.1,
+          "comfort_delta": 0.2,
+          "freshness_delta": -0.1,
+          "sensuality_delta": 0.1,
+          "projection_delta": -0.1,
+          "layer_bias": {
+            "top": -0.15,
+            "heart": 0.05,
+            "base": 0.2
+          },
+          "element_boost": {
+            "fire": -0.1,
+            "earth": 0.3,
+            "air": -0.1,
+            "water": 0.0
+          }
+        }
+      },
+      "air": {
+        "per_10pct": {
+          "temperature_delta": 0.0,
+          "density_delta": -0.2,
+          "sweetness_delta": 0.05,
+          "darkness_delta": -0.1,
+          "comfort_delta": 0.1,
+          "freshness_delta": 0.25,
+          "sensuality_delta": 0.0,
+          "projection_delta": 0.2,
+          "layer_bias": {
+            "top": 0.25,
+            "heart": 0.05,
+            "base": -0.2
+          },
+          "element_boost": {
+            "fire": 0.0,
+            "earth": -0.1,
+            "air": 0.3,
+            "water": 0.0
+          }
+        }
+      },
+      "water": {
+        "per_10pct": {
+          "temperature_delta": -0.15,
+          "density_delta": 0.1,
+          "sweetness_delta": 0.1,
+          "darkness_delta": 0.15,
+          "comfort_delta": 0.2,
+          "freshness_delta": 0.1,
+          "sensuality_delta": 0.15,
+          "projection_delta": -0.1,
+          "layer_bias": {
+            "top": -0.1,
+            "heart": 0.1,
+            "base": 0.1
+          },
+          "element_boost": {
+            "fire": -0.1,
+            "earth": 0.0,
+            "air": 0.0,
+            "water": 0.3
+          }
+        }
+      }
+    },
+    "modality_modifiers": {
+      "cardinal": {
+        "description": "Cardinal dominance amplifies opening sharpness and projection; slight preference for top notes",
+        "per_10pct": {
+          "projection_delta": 0.2,
+          "layer_bias": {
+            "top": 0.2,
+            "heart": 0.0,
+            "base": -0.1
+          },
+          "longevity_penalty": -0.1
+        }
+      },
+      "fixed": {
+        "description": "Fixed dominance deepens base stability, increases density and longevity",
+        "per_10pct": {
+          "density_delta": 0.2,
+          "layer_bias": {
+            "top": -0.1,
+            "heart": 0.0,
+            "base": 0.25
+          },
+          "longevity_bonus": 0.2
+        }
+      },
+      "mutable": {
+        "description": "Mutable dominance smooths transition and heart note performance, increases versatility",
+        "per_10pct": {
+          "freshness_delta": 0.1,
+          "layer_bias": {
+            "top": 0.0,
+            "heart": 0.2,
+            "base": 0.0
+          },
+          "transition_smoothness": 0.25
+        }
+      }
+    },
+    "house_modifiers": {
+      "1": {
+        "layer_bias": {
+          "top": 3,
+          "heart": 0,
+          "base": -1
+        },
+        "temperature_delta": 1,
+        "density_delta": -1,
+        "sweetness_delta": 0,
+        "darkness_delta": 0,
+        "comfort_delta": 0,
+        "freshness_delta": 2,
+        "sensuality_delta": 1,
+        "projection_delta": 2,
+        "element_delta": {
+          "fire": 1,
+          "earth": 0,
+          "air": 1,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": 2,
+          "woody": 0,
+          "gourmand": -1,
+          "aquatic": 1,
+          "aromatic": 1,
+          "resinous": -1,
+          "powdery": 0,
+          "clean": 2
+        }
+      },
+      "2": {
+        "layer_bias": {
+          "top": -1,
+          "heart": 1,
+          "base": 2
+        },
+        "temperature_delta": 1,
+        "density_delta": 2,
+        "sweetness_delta": 2,
+        "darkness_delta": 0,
+        "comfort_delta": 2,
+        "freshness_delta": -1,
+        "sensuality_delta": 2,
+        "projection_delta": 0,
+        "element_delta": {
+          "fire": 0,
+          "earth": 2,
+          "air": -1,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 1,
+          "citrus": -1,
+          "woody": 1,
+          "gourmand": 2,
+          "aquatic": -1,
+          "aromatic": 0,
+          "resinous": 1,
+          "powdery": 1,
+          "clean": 0
+        }
+      },
+      "3": {
+        "layer_bias": {
+          "top": 2,
+          "heart": 1,
+          "base": -1
+        },
+        "temperature_delta": 0,
+        "density_delta": -1,
+        "sweetness_delta": 0,
+        "darkness_delta": -1,
+        "comfort_delta": 1,
+        "freshness_delta": 2,
+        "sensuality_delta": 0,
+        "projection_delta": 1,
+        "element_delta": {
+          "fire": 0,
+          "earth": -1,
+          "air": 2,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": 2,
+          "woody": -1,
+          "gourmand": 0,
+          "aquatic": 1,
+          "aromatic": 2,
+          "resinous": -1,
+          "powdery": 0,
+          "clean": 1
+        }
+      },
+      "4": {
+        "layer_bias": {
+          "top": -2,
+          "heart": 2,
+          "base": 2
+        },
+        "temperature_delta": -1,
+        "density_delta": 1,
+        "sweetness_delta": 2,
+        "darkness_delta": 0,
+        "comfort_delta": 3,
+        "freshness_delta": 0,
+        "sensuality_delta": 1,
+        "projection_delta": -1,
+        "element_delta": {
+          "fire": -1,
+          "earth": 1,
+          "air": -1,
+          "water": 2
+        },
+        "note_tag_bonus": {
+          "floral": 1,
+          "citrus": 0,
+          "woody": 0,
+          "gourmand": 2,
+          "aquatic": 0,
+          "aromatic": 1,
+          "resinous": 1,
+          "powdery": 2,
+          "clean": 0
+        }
+      },
+      "5": {
+        "layer_bias": {
+          "top": 1,
+          "heart": 2,
+          "base": 0
+        },
+        "temperature_delta": 2,
+        "density_delta": 0,
+        "sweetness_delta": 2,
+        "darkness_delta": 1,
+        "comfort_delta": 1,
+        "freshness_delta": 1,
+        "sensuality_delta": 3,
+        "projection_delta": 2,
+        "element_delta": {
+          "fire": 2,
+          "earth": 0,
+          "air": 0,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 2,
+          "citrus": 1,
+          "woody": 0,
+          "gourmand": 2,
+          "aquatic": 0,
+          "aromatic": 0,
+          "resinous": 0,
+          "powdery": 1,
+          "clean": 0
+        }
+      },
+      "6": {
+        "layer_bias": {
+          "top": 1,
+          "heart": 2,
+          "base": 0
+        },
+        "temperature_delta": 0,
+        "density_delta": 1,
+        "sweetness_delta": -1,
+        "darkness_delta": 0,
+        "comfort_delta": 2,
+        "freshness_delta": 2,
+        "sensuality_delta": -1,
+        "projection_delta": 0,
+        "element_delta": {
+          "fire": -1,
+          "earth": 2,
+          "air": 1,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": 1,
+          "woody": 1,
+          "gourmand": -1,
+          "aquatic": 1,
+          "aromatic": 2,
+          "resinous": 0,
+          "powdery": 0,
+          "clean": 2
+        }
+      },
+      "7": {
+        "layer_bias": {
+          "top": 0,
+          "heart": 3,
+          "base": 0
+        },
+        "temperature_delta": 0,
+        "density_delta": 1,
+        "sweetness_delta": 2,
+        "darkness_delta": -1,
+        "comfort_delta": 2,
+        "freshness_delta": 1,
+        "sensuality_delta": 2,
+        "projection_delta": 1,
+        "element_delta": {
+          "fire": 0,
+          "earth": 0,
+          "air": 2,
+          "water": 1
+        },
+        "note_tag_bonus": {
+          "floral": 2,
+          "citrus": 1,
+          "woody": 0,
+          "gourmand": 0,
+          "aquatic": 0,
+          "aromatic": 0,
+          "resinous": 0,
+          "powdery": 2,
+          "clean": 1
+        }
+      },
+      "8": {
+        "layer_bias": {
+          "top": -3,
+          "heart": 0,
+          "base": 3
+        },
+        "temperature_delta": 1,
+        "density_delta": 2,
+        "sweetness_delta": -1,
+        "darkness_delta": 3,
+        "comfort_delta": -1,
+        "freshness_delta": -1,
+        "sensuality_delta": 3,
+        "projection_delta": 1,
+        "element_delta": {
+          "fire": 1,
+          "earth": 0,
+          "air": -1,
+          "water": 2
+        },
+        "note_tag_bonus": {
+          "floral": -1,
+          "citrus": -2,
+          "woody": 1,
+          "gourmand": 0,
+          "aquatic": -1,
+          "aromatic": 0,
+          "resinous": 2,
+          "powdery": -1,
+          "clean": -2
+        }
+      },
+      "9": {
+        "layer_bias": {
+          "top": 1,
+          "heart": 1,
+          "base": 0
+        },
+        "temperature_delta": 1,
+        "density_delta": 0,
+        "sweetness_delta": 0,
+        "darkness_delta": 0,
+        "comfort_delta": 1,
+        "freshness_delta": 1,
+        "sensuality_delta": 1,
+        "projection_delta": 2,
+        "element_delta": {
+          "fire": 2,
+          "earth": -1,
+          "air": 1,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": 1,
+          "woody": 1,
+          "gourmand": 0,
+          "aquatic": 0,
+          "aromatic": 1,
+          "resinous": 1,
+          "powdery": 0,
+          "clean": 0
+        }
+      },
+      "10": {
+        "layer_bias": {
+          "top": 0,
+          "heart": 1,
+          "base": 1
+        },
+        "temperature_delta": 0,
+        "density_delta": 2,
+        "sweetness_delta": -1,
+        "darkness_delta": 1,
+        "comfort_delta": 0,
+        "freshness_delta": 0,
+        "sensuality_delta": 1,
+        "projection_delta": 2,
+        "element_delta": {
+          "fire": 0,
+          "earth": 2,
+          "air": 0,
+          "water": -1
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": 0,
+          "woody": 2,
+          "gourmand": -1,
+          "aquatic": -1,
+          "aromatic": 1,
+          "resinous": 1,
+          "powdery": 0,
+          "clean": 1
+        }
+      },
+      "11": {
+        "layer_bias": {
+          "top": 2,
+          "heart": 1,
+          "base": -1
+        },
+        "temperature_delta": 0,
+        "density_delta": -1,
+        "sweetness_delta": 0,
+        "darkness_delta": 0,
+        "comfort_delta": 1,
+        "freshness_delta": 2,
+        "sensuality_delta": 0,
+        "projection_delta": 1,
+        "element_delta": {
+          "fire": 0,
+          "earth": -1,
+          "air": 2,
+          "water": 0
+        },
+        "note_tag_bonus": {
+          "floral": 1,
+          "citrus": 2,
+          "woody": -1,
+          "gourmand": 0,
+          "aquatic": 2,
+          "aromatic": 1,
+          "resinous": -1,
+          "powdery": 0,
+          "clean": 2
+        }
+      },
+      "12": {
+        "layer_bias": {
+          "top": -2,
+          "heart": 1,
+          "base": 2
+        },
+        "temperature_delta": -1,
+        "density_delta": 2,
+        "sweetness_delta": 1,
+        "darkness_delta": 2,
+        "comfort_delta": 1,
+        "freshness_delta": -1,
+        "sensuality_delta": 2,
+        "projection_delta": -1,
+        "element_delta": {
+          "fire": -1,
+          "earth": 0,
+          "air": -1,
+          "water": 3
+        },
+        "note_tag_bonus": {
+          "floral": 0,
+          "citrus": -1,
+          "woody": 0,
+          "gourmand": 0,
+          "aquatic": 1,
+          "aromatic": 0,
+          "resinous": 2,
+          "powdery": 2,
+          "clean": -1
+        }
+      }
+    },
+    "aspect_modifiers": {
+      "venus_mars": {
+        "conjunction": {
+          "sensuality_delta": 3,
+          "temperature_delta": 2,
+          "projection_delta": 2,
+          "freshness_delta": 1,
+          "darkness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "amplify_both_hot_and_sensual",
+            "note_tag_bonus": {
+              "sensual": 2,
+              "spicy": 2,
+              "floral": 1
+            }
+          }
+        },
+        "square": {
+          "sensuality_delta": 2,
+          "temperature_delta": 1,
+          "projection_delta": 1,
+          "freshness_delta": -1,
+          "darkness_delta": 2,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "tension_creates_contrast",
+            "note_tag_bonus": {
+              "dark": 2,
+              "spicy": 1
+            }
+          }
+        },
+        "trine": {
+          "sensuality_delta": 2,
+          "temperature_delta": 1,
+          "projection_delta": 1,
+          "freshness_delta": 1,
+          "darkness_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "harmonious_blend",
+            "note_tag_bonus": {
+              "floral": 1,
+              "sensual": 1
+            }
+          }
+        },
+        "opposition": {
+          "sensuality_delta": 1,
+          "temperature_delta": 0,
+          "projection_delta": 0,
+          "freshness_delta": 0,
+          "darkness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "polarized_duality",
+            "note_tag_bonus": {
+              "spicy": 1,
+              "clean": 1
+            }
+          }
+        }
+      },
+      "venus_saturn": {
+        "conjunction": {
+          "sensuality_delta": -1,
+          "temperature_delta": -1,
+          "projection_delta": -1,
+          "freshness_delta": 0,
+          "darkness_delta": 2,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": -1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "restrained_elegance",
+            "note_tag_bonus": {
+              "woody": 2,
+              "powdery": 1,
+              "resinous": 1
+            }
+          }
+        },
+        "square": {
+          "sensuality_delta": -1,
+          "temperature_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": -1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "austerity_tension",
+            "note_tag_bonus": {
+              "dark": 2,
+              "resinous": 1
+            }
+          }
+        },
+        "trine": {
+          "sensuality_delta": 0,
+          "temperature_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 2,
+          "freshness_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "mature_harmony",
+            "note_tag_bonus": {
+              "woody": 1,
+              "classic": 1,
+              "clean": 1
+            }
+          }
+        },
+        "opposition": {
+          "sensuality_delta": 1,
+          "temperature_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 0,
+          "freshness_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "beauty_vs_structure",
+            "note_tag_bonus": {
+              "floral": 1,
+              "woody": 1
+            }
+          }
+        }
+      },
+      "moon_neptune": {
+        "conjunction": {
+          "sensuality_delta": 2,
+          "temperature_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "sweetness_delta": 2,
+          "layer_bias": {
+            "top": -1,
+            "heart": 2,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          },
+          "contrast_rules": {
+            "rule": "dreamy_dissolution",
+            "note_tag_bonus": {
+              "mystical": 2,
+              "aquatic": 1,
+              "powdery": 1,
+              "resinous": 1
+            }
+          }
+        },
+        "square": {
+          "sensuality_delta": 1,
+          "temperature_delta": -1,
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "freshness_delta": 0,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 0,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "emotional_fog",
+            "note_tag_bonus": {
+              "dark": 2,
+              "resinous": 1
+            }
+          }
+        },
+        "trine": {
+          "sensuality_delta": 2,
+          "temperature_delta": -1,
+          "darkness_delta": 1,
+          "comfort_delta": 2,
+          "sweetness_delta": 1,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "fluid_harmony",
+            "note_tag_bonus": {
+              "floral": 1,
+              "aquatic": 1,
+              "mystical": 1
+            }
+          }
+        },
+        "opposition": {
+          "sensuality_delta": 1,
+          "temperature_delta": 0,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "sweetness_delta": 0,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "intuition_vs_reality",
+            "note_tag_bonus": {
+              "aquatic": 1,
+              "clean": 1
+            }
+          }
+        }
+      },
+      "sun_pluto": {
+        "conjunction": {
+          "sensuality_delta": 2,
+          "temperature_delta": 1,
+          "darkness_delta": 3,
+          "projection_delta": 2,
+          "freshness_delta": -1,
+          "comfort_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "power_intensity",
+            "note_tag_bonus": {
+              "dark": 2,
+              "resinous": 2,
+              "sensual": 1
+            }
+          }
+        },
+        "square": {
+          "sensuality_delta": 1,
+          "temperature_delta": 1,
+          "darkness_delta": 2,
+          "projection_delta": 1,
+          "freshness_delta": -1,
+          "comfort_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "intense_friction",
+            "note_tag_bonus": {
+              "dark": 2,
+              "spicy": 1
+            }
+          }
+        },
+        "trine": {
+          "sensuality_delta": 2,
+          "temperature_delta": 1,
+          "darkness_delta": 2,
+          "projection_delta": 1,
+          "freshness_delta": 0,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "transformative_depth",
+            "note_tag_bonus": {
+              "resinous": 1,
+              "sensual": 1,
+              "woody": 1
+            }
+          }
+        },
+        "opposition": {
+          "sensuality_delta": 1,
+          "temperature_delta": 0,
+          "darkness_delta": 2,
+          "projection_delta": 1,
+          "freshness_delta": 0,
+          "comfort_delta": 0,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "identity_vs_shadow",
+            "note_tag_bonus": {
+              "dark": 1,
+              "resinous": 1
+            }
+          }
+        }
+      },
+      "moon_venus": {
+        "conjunction": {
+          "sweetness_delta": 3,
+          "sensuality_delta": 2,
+          "comfort_delta": 3,
+          "freshness_delta": 1,
+          "darkness_delta": -1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 3,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": 1,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "nurturing_beauty",
+            "note_tag_bonus": {
+              "floral": 3,
+              "powdery": 2,
+              "sweet": 1
+            }
+          }
+        },
+        "trine": {
+          "sweetness_delta": 2,
+          "sensuality_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": 1,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "gentle_harmony",
+            "note_tag_bonus": {
+              "floral": 2,
+              "powdery": 1,
+              "sweet": 1
+            }
+          }
+        },
+        "square": {
+          "sweetness_delta": 1,
+          "sensuality_delta": 2,
+          "comfort_delta": -1,
+          "darkness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "emotional_tension",
+            "note_tag_bonus": {
+              "sensual": 2,
+              "dark": 1
+            }
+          }
+        },
+        "opposition": {
+          "sweetness_delta": 1,
+          "sensuality_delta": 1,
+          "freshness_delta": 1,
+          "darkness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "heart_vs_desire",
+            "note_tag_bonus": {
+              "floral": 1,
+              "fresh": 1
+            }
+          }
+        }
+      },
+      "sun_moon": {
+        "conjunction": {
+          "comfort_delta": 3,
+          "sweetness_delta": 2,
+          "darkness_delta": -1,
+          "freshness_delta": 1,
+          "temperature_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "unified_self",
+            "note_tag_bonus": {
+              "warm": 2,
+              "classic": 2,
+              "clean": 1
+            }
+          }
+        },
+        "opposition": {
+          "darkness_delta": 1,
+          "sensuality_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "inner_duality",
+            "note_tag_bonus": {
+              "floral": 1,
+              "woody": 1
+            }
+          }
+        },
+        "square": {
+          "darkness_delta": 2,
+          "sensuality_delta": 1,
+          "comfort_delta": -1,
+          "temperature_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": -1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "self_conflict",
+            "note_tag_bonus": {
+              "dark": 2,
+              "spicy": 1,
+              "resinous": 1
+            }
+          }
+        },
+        "trine": {
+          "comfort_delta": 2,
+          "sweetness_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "balanced_nature",
+            "note_tag_bonus": {
+              "clean": 1,
+              "warm": 1,
+              "floral": 1
+            }
+          }
+        }
+      },
+      "venus_jupiter": {
+        "conjunction": {
+          "sweetness_delta": 3,
+          "comfort_delta": 2,
+          "sensuality_delta": 2,
+          "freshness_delta": 1,
+          "projection_delta": 2,
+          "darkness_delta": -1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "abundant_joy",
+            "note_tag_bonus": {
+              "sweet": 2,
+              "floral": 2,
+              "exotic": 1
+            }
+          }
+        },
+        "trine": {
+          "sweetness_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sensuality_delta": 1,
+          "darkness_delta": -1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 2,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "optimistic_beauty",
+            "note_tag_bonus": {
+              "citrus": 2,
+              "floral": 1,
+              "sweet": 1
+            }
+          }
+        },
+        "square": {
+          "sweetness_delta": 2,
+          "sensuality_delta": 1,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "excess_tension",
+            "note_tag_bonus": {
+              "sweet": 2,
+              "oriental": 1
+            }
+          }
+        },
+        "opposition": {
+          "sweetness_delta": 1,
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "beauty_vs_expansion",
+            "note_tag_bonus": {
+              "floral": 1,
+              "fresh": 1
+            }
+          }
+        }
+      },
+      "mars_saturn": {
+        "conjunction": {
+          "darkness_delta": 3,
+          "temperature_delta": 1,
+          "sensuality_delta": 1,
+          "freshness_delta": -2,
+          "comfort_delta": -1,
+          "density_delta": 2,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 2,
+            "air": -1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "iron_will",
+            "note_tag_bonus": {
+              "woody": 3,
+              "resinous": 2,
+              "dark": 1
+            }
+          }
+        },
+        "square": {
+          "darkness_delta": 2,
+          "temperature_delta": 1,
+          "freshness_delta": -1,
+          "comfort_delta": -2,
+          "density_delta": 1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": -1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "frustrated_drive",
+            "note_tag_bonus": {
+              "dark": 2,
+              "woody": 1,
+              "spicy": 1
+            }
+          }
+        },
+        "trine": {
+          "darkness_delta": 1,
+          "density_delta": 2,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 2,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "disciplined_strength",
+            "note_tag_bonus": {
+              "woody": 2,
+              "resinous": 1,
+              "clean": 1
+            }
+          }
+        },
+        "opposition": {
+          "darkness_delta": 1,
+          "density_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "force_vs_structure",
+            "note_tag_bonus": {
+              "woody": 1,
+              "dark": 1
+            }
+          }
+        }
+      },
+      "moon_mars": {
+        "conjunction": {
+          "sensuality_delta": 2,
+          "temperature_delta": 2,
+          "darkness_delta": 2,
+          "freshness_delta": 1,
+          "comfort_delta": -1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "passionate_emotion",
+            "note_tag_bonus": {
+              "spicy": 2,
+              "sensual": 2,
+              "dark": 1
+            }
+          }
+        },
+        "square": {
+          "temperature_delta": 2,
+          "darkness_delta": 2,
+          "sensuality_delta": 1,
+          "comfort_delta": -2,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "emotional_conflict",
+            "note_tag_bonus": {
+              "dark": 2,
+              "spicy": 2
+            }
+          }
+        },
+        "trine": {
+          "temperature_delta": 1,
+          "sensuality_delta": 2,
+          "freshness_delta": 1,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 0,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "energized_feeling",
+            "note_tag_bonus": {
+              "spicy": 1,
+              "floral": 1,
+              "sensual": 1
+            }
+          }
+        },
+        "opposition": {
+          "temperature_delta": 1,
+          "darkness_delta": 1,
+          "sensuality_delta": 1,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "desire_vs_need",
+            "note_tag_bonus": {
+              "spicy": 1,
+              "clean": 1
+            }
+          }
+        }
+      },
+      "sun_venus": {
+        "conjunction": {
+          "sweetness_delta": 2,
+          "sensuality_delta": 2,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "darkness_delta": -1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 1,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "radiant_beauty",
+            "note_tag_bonus": {
+              "floral": 2,
+              "citrus": 1,
+              "sweet": 1
+            }
+          }
+        },
+        "trine": {
+          "sweetness_delta": 2,
+          "freshness_delta": 2,
+          "comfort_delta": 1,
+          "sensuality_delta": 1,
+          "darkness_delta": -1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 2,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "natural_grace",
+            "note_tag_bonus": {
+              "citrus": 2,
+              "floral": 1,
+              "clean": 1
+            }
+          }
+        },
+        "sextile": {
+          "sweetness_delta": 1,
+          "freshness_delta": 1,
+          "comfort_delta": 1,
+          "sensuality_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "easy_charm",
+            "note_tag_bonus": {
+              "floral": 1,
+              "sweet": 1
+            }
+          }
+        }
+      },
+      "sun_mars": {
+        "conjunction": {
+          "temperature_delta": 2,
+          "projection_delta": 3,
+          "freshness_delta": 2,
+          "darkness_delta": 1,
+          "sensuality_delta": 1,
+          "comfort_delta": -1,
+          "layer_bias": {
+            "top": 3,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 3,
+            "earth": 0,
+            "air": 1,
+            "water": -1
+          },
+          "contrast_rules": {
+            "rule": "solar_drive",
+            "note_tag_bonus": {
+              "spicy": 2,
+              "citrus": 2,
+              "fresh": 1
+            }
+          }
+        },
+        "trine": {
+          "temperature_delta": 1,
+          "projection_delta": 2,
+          "freshness_delta": 1,
+          "sensuality_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "confident_energy",
+            "note_tag_bonus": {
+              "spicy": 1,
+              "aromatic": 1,
+              "fresh": 1
+            }
+          }
+        },
+        "square": {
+          "temperature_delta": 2,
+          "projection_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": -2,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": -1
+          },
+          "contrast_rules": {
+            "rule": "combative_force",
+            "note_tag_bonus": {
+              "spicy": 2,
+              "dark": 1
+            }
+          }
+        },
+        "opposition": {
+          "temperature_delta": 1,
+          "projection_delta": 1,
+          "darkness_delta": 1,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 0,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "assertion_vs_identity",
+            "note_tag_bonus": {
+              "fresh": 1,
+              "aromatic": 1
+            }
+          }
+        }
+      },
+      "moon_saturn": {
+        "conjunction": {
+          "darkness_delta": 2,
+          "comfort_delta": -1,
+          "sweetness_delta": -1,
+          "density_delta": 2,
+          "freshness_delta": -1,
+          "temperature_delta": -1,
+          "layer_bias": {
+            "top": -2,
+            "heart": 0,
+            "base": 3
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "emotional_restraint",
+            "note_tag_bonus": {
+              "woody": 2,
+              "resinous": 2,
+              "dark": 1
+            }
+          }
+        },
+        "trine": {
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "density_delta": 1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 2,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "mature_depth",
+            "note_tag_bonus": {
+              "woody": 1,
+              "resinous": 1,
+              "powdery": 1
+            }
+          }
+        },
+        "square": {
+          "darkness_delta": 2,
+          "comfort_delta": -2,
+          "sweetness_delta": -1,
+          "density_delta": 1,
+          "freshness_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": -1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 1,
+            "air": -1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "suppressed_emotion",
+            "note_tag_bonus": {
+              "dark": 2,
+              "resinous": 1
+            }
+          }
+        },
+        "opposition": {
+          "darkness_delta": 1,
+          "density_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 0,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 1,
+            "air": 0,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "security_vs_duty",
+            "note_tag_bonus": {
+              "woody": 1,
+              "dark": 1
+            }
+          }
+        }
+      },
+      "venus_neptune": {
+        "conjunction": {
+          "sweetness_delta": 2,
+          "sensuality_delta": 3,
+          "darkness_delta": 2,
+          "freshness_delta": 1,
+          "comfort_delta": 2,
+          "temperature_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 3,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 3
+          },
+          "contrast_rules": {
+            "rule": "romantic_illusion",
+            "note_tag_bonus": {
+              "mystical": 3,
+              "floral": 2,
+              "powdery": 1
+            }
+          }
+        },
+        "trine": {
+          "sweetness_delta": 2,
+          "sensuality_delta": 2,
+          "freshness_delta": 2,
+          "darkness_delta": 1,
+          "comfort_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 1
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 1,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "dreamy_love",
+            "note_tag_bonus": {
+              "mystical": 2,
+              "floral": 1,
+              "aquatic": 1
+            }
+          }
+        },
+        "square": {
+          "sweetness_delta": 1,
+          "darkness_delta": 2,
+          "sensuality_delta": 2,
+          "comfort_delta": -1,
+          "layer_bias": {
+            "top": -1,
+            "heart": 1,
+            "base": 2
+          },
+          "element_delta": {
+            "fire": -1,
+            "earth": 0,
+            "air": 0,
+            "water": 2
+          },
+          "contrast_rules": {
+            "rule": "confused_desire",
+            "note_tag_bonus": {
+              "dark": 1,
+              "mystical": 2,
+              "sensual": 1
+            }
+          }
+        },
+        "opposition": {
+          "sweetness_delta": 1,
+          "sensuality_delta": 1,
+          "darkness_delta": 1,
+          "freshness_delta": 1,
+          "layer_bias": {
+            "top": 0,
+            "heart": 2,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 0,
+            "earth": 0,
+            "air": 1,
+            "water": 1
+          },
+          "contrast_rules": {
+            "rule": "ideal_vs_real",
+            "note_tag_bonus": {
+              "floral": 1,
+              "aquatic": 1
+            }
+          }
+        }
+      },
+      "sun_jupiter": {
+        "conjunction": {
+          "sweetness_delta": 1,
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "projection_delta": 2,
+          "darkness_delta": -1,
+          "temperature_delta": 1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "expansive_self",
+            "note_tag_bonus": {
+              "exotic": 2,
+              "citrus": 1,
+              "warm": 1
+            }
+          }
+        },
+        "trine": {
+          "comfort_delta": 2,
+          "freshness_delta": 2,
+          "sweetness_delta": 1,
+          "projection_delta": 1,
+          "darkness_delta": -1,
+          "layer_bias": {
+            "top": 2,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 2,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "generous_nature",
+            "note_tag_bonus": {
+              "exotic": 1,
+              "citrus": 2,
+              "clean": 1
+            }
+          }
+        },
+        "square": {
+          "sweetness_delta": 1,
+          "projection_delta": 2,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 2,
+            "earth": 0,
+            "air": 0,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "overreach",
+            "note_tag_bonus": {
+              "exotic": 1,
+              "spicy": 1
+            }
+          }
+        },
+        "opposition": {
+          "comfort_delta": 1,
+          "freshness_delta": 1,
+          "projection_delta": 1,
+          "layer_bias": {
+            "top": 1,
+            "heart": 1,
+            "base": 0
+          },
+          "element_delta": {
+            "fire": 1,
+            "earth": 0,
+            "air": 1,
+            "water": 0
+          },
+          "contrast_rules": {
+            "rule": "identity_vs_faith",
+            "note_tag_bonus": {
+              "warm": 1,
+              "aromatic": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "weight_hierarchy": {
+    "venus": 20,
+    "moon": 16,
+    "mars": 10,
+    "asc": 12,
+    "sun": 12,
+    "elements": 10,
+    "houses": 5,
+    "aspects": 15,
+    "modalities": 2
+  },
+  "scoring_formula": {
+    "description": "For each note in note_attribute_matrix, compute a raw score by comparing note attributes against a user-derived target profile. Target profile is assembled from all astro modifiers weighted by weight_hierarchy. Higher score = better match.",
+    "step_1_build_target_profile": {
+      "description": "Accumulate weighted deltas from each active modifier source into a single target vector",
+      "target_attributes": [
+        "temperature",
+        "density",
+        "sweetness",
+        "darkness",
+        "comfort",
+        "freshness",
+        "sensuality",
+        "projection"
+      ],
+      "target_layer_bias": {
+        "top": 0.0,
+        "heart": 0.0,
+        "base": 0.0
+      },
+      "target_element_affinity": {
+        "fire": 0.0,
+        "earth": 0.0,
+        "air": 0.0,
+        "water": 0.0
+      },
+      "accumulation_formula": "target[attr] += planet_weight * sign_modifier[attr_delta] + element_weight * element_modifier[attr_delta] + house_weight * house_modifier[attr_delta] + aspect_weight * aspect_modifier[attr_delta] + modality_weight * modality_modifier[attr_delta]"
+    },
+    "step_2_normalize_target": {
+      "description": "Clamp target attribute values to valid ranges after accumulation",
+      "clamp_rules": {
+        "temperature": [
+          -2,
+          2
+        ],
+        "density": [
+          1,
+          5
+        ],
+        "sweetness": [
+          0,
+          5
+        ],
+        "darkness": [
+          0,
+          5
+        ],
+        "comfort": [
+          0,
+          5
+        ],
+        "freshness": [
+          0,
+          5
+        ],
+        "sensuality": [
+          0,
+          5
+        ],
+        "projection": [
+          1,
+          5
+        ]
+      }
+    },
+    "step_3_score_each_note": {
+      "description": "For each note, compute attribute match distance and apply multipliers",
+      "attribute_weights": {
+        "sensuality": 2.0,
+        "darkness": 1.8,
+        "freshness": 1.5,
+        "comfort": 1.5,
+        "temperature": 1.3,
+        "sweetness": 1.2,
+        "projection": 1.0,
+        "density": 1.0
+      },
+      "distance_formula": "For each attribute: penalty = attribute_weight * abs(note_attribute - target_attribute)",
+      "raw_score_formula": "raw_score = 100 - sum(penalty for all attributes)",
+      "layer_bonus_formula": "layer_bonus = target_layer_bias[note.layer] * 5",
+      "element_bonus_formula": "element_bonus = sum(target_element_affinity[e] * note.element_affinity[e] for e in elements) * 2",
+      "tag_bonus_formula": "For each house modifier active: tag_bonus += house_modifier.note_tag_bonus[tag] * 3 for each matching tag in note.tags",
+      "final_score_formula": "final_score = raw_score + layer_bonus + element_bonus + tag_bonus"
+    },
+    "step_4_rank_by_layer": {
+      "description": "Group all notes by their layer. Sort each group by final_score descending. Apply selection logic and constraints to choose final notes."
+    }
+  },
+  "selection_logic": {
+    "step_1": "Compute final_score for all notes using scoring_formula",
+    "step_2": "Partition notes by layer: top_candidates, heart_candidates, base_candidates",
+    "step_3": "Sort each partition by final_score descending",
+    "step_4": "Apply constraints (see constraints block) as filters and forced inclusions",
+    "step_5": "Select top 2 notes from top_candidates, top 3 from heart_candidates, top 3 from base_candidates after constraint enforcement",
+    "step_6": "If a constraint forces inclusion of a note not in top-N, replace the lowest-scoring eligible note of the same layer",
+    "step_7": "Recompute coherence_score for final selection (see result_output_schema)"
+  },
+  "constraints": {
+    "base_density_cap": {
+      "rule": "No more than 2 selected base notes may have density >= 4",
+      "enforcement": "If 3+ base notes with density >= 4 are selected, drop the lowest-scoring among them and substitute the next eligible base candidate"
+    },
+    "freshness_minimum": {
+      "rule": "At least 1 selected note (any layer) must have freshness >= 3",
+      "enforcement": "If no selected note has freshness >= 3, force-include the highest-scoring note with freshness >= 3 from any layer, replacing the lowest-scoring note in the same layer"
+    },
+    "sweetness_cap": {
+      "rule": "No more than 2 selected notes may have sweetness >= 4",
+      "enforcement": "If 3+ selected notes have sweetness >= 4, drop the lowest-scoring among them and substitute the next eligible note from the same layer without sweetness >= 4"
+    },
+    "element_stacking_limit": {
+      "rule": "No more than 3 selected notes may share the same dominant element (dominant = highest element_affinity value)",
+      "enforcement": "If 4+ notes share a dominant element, drop the lowest-scoring among them and substitute next eligible candidate whose dominant element differs"
+    },
+    "house_8_darkness_requirement": {
+      "rule": "If house 8 emphasis is high (defined as: house 8 planet count >= 2, or a personal planet [sun/moon/venus/mars/asc] occupies house 8), at least one selected note must have darkness >= 4",
+      "enforcement": "Force-include the highest-scoring note with darkness >= 4. Replace lowest-scoring selected note of same layer if necessary"
+    },
+    "house_12_mystical_requirement": {
+      "rule": "If house 12 emphasis is high (defined as: house 12 planet count >= 2, or a personal planet occupies house 12), at least one selected note must be tagged with 'resinous', 'powdery', or 'mystical'",
+      "mystical_definition": "A note is tagged 'mystical' if it evokes ambiguity, spiritual resonance, or liminal olfactory qualities — examples: Royal Oud, Patchouli, L'Afrodizyak d'Or, Istanbul, Narcissus, Lotus. Tag must be explicitly present in note.tags.",
+      "enforcement": "Force-include the highest-scoring note with a qualifying tag. Replace lowest-scoring selected note of same layer if necessary"
+    },
+    "dominant_element_representation": {
+      "rule": "At least one selected note must support the chart's dominant element (the element with the highest total percentage from element_distribution). Support means note.element_affinity[dominant] >= 2",
+      "enforcement": "Force-include the highest-scoring note meeting the element_affinity requirement. Replace lowest-scoring note of same layer if necessary"
+    }
+  },
+  "result_output_schema": {
+    "description": "Schema for the output produced by the runtime engine for a given natal chart input",
+    "selected_notes": {
+      "top": [
+        "note_name_1",
+        "note_name_2"
+      ],
+      "heart": [
+        "note_name_1",
+        "note_name_2",
+        "note_name_3"
+      ],
+      "base": [
+        "note_name_1",
+        "note_name_2",
+        "note_name_3"
+      ]
+    },
+    "attribute_profile": {
+      "description": "Averaged attribute values of the 8 selected notes, reflecting the collective scent character",
+      "temperature": "float -2..2",
+      "density": "float 1..5",
+      "sweetness": "float 0..5",
+      "darkness": "float 0..5",
+      "comfort": "float 0..5",
+      "freshness": "float 0..5",
+      "sensuality": "float 0..5",
+      "projection": "float 1..5"
+    },
+    "dominant_elements": {
+      "description": "Dominant element affinities of the final note selection, computed as sum of element_affinity values across all 8 notes",
+      "fire": "float",
+      "earth": "float",
+      "air": "float",
+      "water": "float"
+    },
+    "coherence_score": {
+      "description": "0–100 score representing how well the selected notes form a harmonious, balanced formula. Computed as: 100 - (standard_deviation_of_final_scores * 2) - (constraint_violation_count * 10). A score above 75 is considered excellent.",
+      "type": "float",
+      "range": [
+        0,
+        100
+      ]
+    },
+    "explanations": {
+      "short_reasoning": [
+        "Each bullet is a 1-sentence explanation of why a key note was selected or why a constraint was enforced",
+        "Maximum 8 bullets",
+        "Example: 'Bergamot selected as top note due to high air element affinity matching Gemini ASC and freshness target of 4.2'",
+        "Example: 'Royal Oud forced into base by House 8 darkness constraint (Mars in House 8)'",
+        "Example: 'Sweetness cap applied: Vanilla retained over Caramel due to higher sensuality score matching Moon in Taurus'"
+      ]
+    }
+  }
+}
